@@ -17,16 +17,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float jumpForce;
 
-    // 상태 변수
-    private bool isRun = false;
-    private bool isGround = false;
-    private bool isCrouch = false;
-
     // 앉음 변수
     [SerializeField]
     private float crouchPosY;
     private float originPosY;
     private float applyCrouchPosY;
+
+    // 상태 변수
+    private bool isRun = false;
+    private bool isGround = false;
+    private bool isCrouch = false;
 
     // 카메라 한계 변수
     [SerializeField]
@@ -40,11 +40,13 @@ public class PlayerController : MonoBehaviour
     private Camera mainCam;
     private Rigidbody playerRigidbody;
     private Collider playerCollider;
+    private GunController gunController;
 
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody>();
         playerCollider = GetComponent<Collider>();
+        gunController = FindObjectOfType<GunController>();  
 
         // 초기화
         applySpeed = moveSpeed;
@@ -66,6 +68,7 @@ public class PlayerController : MonoBehaviour
     // 지면 체크
     public void IsGround()
     {
+        // collider.bounds.extens => 콜라이더 크기의 절반
         isGround = Physics.Raycast(transform.position, Vector3.down, playerCollider.bounds.extents.y + 0.1f);
     }
 
@@ -89,6 +92,8 @@ public class PlayerController : MonoBehaviour
             // 달리기 시작
             if (isCrouch)
                 Crouch();
+
+            gunController.CancelFindSight();
 
             isRun = true;
             applySpeed = runSpeed;
