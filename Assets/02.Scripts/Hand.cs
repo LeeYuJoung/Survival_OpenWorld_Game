@@ -11,6 +11,6 @@ public class Hand : MonoBehaviour
     public int damage;        // 공격력
     public float workSpeed;   // 작업 속도
     public float attackDelay; // 공격 딜레이
-    public float attackDelayA;// 공격 활성화 시점
+    public float attackDelayA;// 공격 활성화 시점 (공격 애니메이션 중 주먹이 다 뻗어졌을 때 공격 데미지 넣기)
     public float attackDelayB;// 공격 비활성화 시점
 }

@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8520264326878923487}
     m_Modifications:
+    - target: {fileID: 1014276306103892110, guid: 91917936023d8d44698236efd68648ff, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014276306103892110, guid: 91917936023d8d44698236efd68648ff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8233988655893291840, guid: 91917936023d8d44698236efd68648ff, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -145,9 +153,9 @@ MeshCollider:
   m_GameObject: {fileID: 9040378048074829925}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8755351915871275853, guid: 367a2ab42518bbe478aaaff21c57d7d5, type: 3}
 --- !u!82 &5926164714964749622
@@ -246,6 +254,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &4676157942633204816
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040378048074829925}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5cde3a0e6f197448889e3b437b622d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1391051138482418935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +300,6 @@ MonoBehaviour:
   retroActionForce: 0
   retroActionFineSightForce: 0
   findSightOriginPos: {x: 0, y: 0, z: 0}
-  anim: {fileID: 0}
+  anim: {fileID: 4676157942633204816}
   muzzleFlash: {fileID: 0}
   fire_Sound: {fileID: 0}

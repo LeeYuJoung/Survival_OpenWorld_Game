@@ -10,7 +10,7 @@ public class HandController : MonoBehaviour
     private bool isAttack = false;
     private bool isSwing = false;
 
-    private RaycastHit hit;   // 현재 무기(Hand)에 닿은 오브젝트 정보
+    private RaycastHit hit; // 현재 무기(Hand)에 닿은 오브젝트 정보
 
     void Update()
     {

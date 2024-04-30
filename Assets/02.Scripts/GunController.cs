@@ -16,8 +16,16 @@ public class GunController : MonoBehaviour
 
     private AudioSource gunAudioSource;
 
+    private RaycastHit hit;  // 총알의 충돌 정보
+
+    [SerializeField]
+    private Camera cam;      // 카메라 시점에서 정 중앙에 발사
+    [SerializeField]
+    private GameObject hitEffectPrefab;
+
     private void Start()
     {
+        originPos = Vector3.zero;
         gunAudioSource = GetComponent<AudioSource>();
     }
 
@@ -56,16 +64,27 @@ public class GunController : MonoBehaviour
 
     private void Shoot()
     {
-        Debug.Log("::: 총알 발사 :::");
         currentGun.currentBulletCount--;
         currentFireRate = currentGun.fireRate;
 
         PlaySE(currentGun.fire_Sound);
         currentGun.muzzleFlash.Play();
 
+        Hit();
+
         // 총기 반동 코루틴 실행
         StopAllCoroutines();
         StartCoroutine(RetroActionCoroutine());
+    }
+
+    // 피격 처리
+    private void Hit()
+    {
+        if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, currentGun.range))
+        {
+            GameObject clone = Instantiate(hitEffectPrefab, hit.point, Quaternion.LookRotation(hit.normal));
+            Destroy(clone, 2.0f);
+        }
     }
 
     // 재장전

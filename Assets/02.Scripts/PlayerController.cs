@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         IsGround();
         Jump();
         Run();
-        Crouch();
+        TryCrouch();
         Move();
         CameraRotation();
         CharacterRotation();
@@ -89,10 +89,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            // 달리기 시작
             if (isCrouch)
                 Crouch();
 
+            // 달리면 정조준 상태 풀림
             gunController.CancelFindSight();
 
             isRun = true;
@@ -100,35 +100,39 @@ public class PlayerController : MonoBehaviour
         }
         if(Input.GetKeyUp(KeyCode.LeftShift))
         {
-            // 달리기 멈춤
             isRun = false;
             applySpeed = moveSpeed;
         }
     }
 
     // 앉기
-    public void Crouch()
+    public void TryCrouch()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            isCrouch = !isCrouch;
-
-            if (isCrouch)
-            {
-                applySpeed = crouchSpeed;
-                applyCrouchPosY = crouchPosY;
-            }
-            else
-            {
-                applySpeed = moveSpeed;
-                applyCrouchPosY = originPosY;
-            }
-
-            StartCoroutine(CrouchCoroutine());
+            Crouch();
         }
     }
 
-    // 부드러운 앉기
+    public void Crouch()
+    {
+        isCrouch = !isCrouch;
+
+        if (isCrouch)
+        {
+            applySpeed = crouchSpeed;
+            applyCrouchPosY = crouchPosY;
+        }
+        else
+        {
+            applySpeed = moveSpeed;
+            applyCrouchPosY = originPosY;
+        }
+
+        StartCoroutine(CrouchCoroutine());
+    }
+
+    // 부드러운 앉기 동작
     IEnumerator CrouchCoroutine()
     {
         float _posY = mainCam.transform.localPosition.y;
@@ -178,7 +182,7 @@ public class PlayerController : MonoBehaviour
         float yRotation = Input.GetAxisRaw("Mouse X");
 
         // Quaternion은 값을 더하기 위해서는 서로 곱해주어야 됨
-        Vector3 playerRotationY = new Vector3(0.0f, yRotation, 0.0f) * lookSensitivity;
+        Vector3 playerRotationY = new Vector3(0.0f, yRotation * lookSensitivity, 0.0f);
         playerRigidbody.MoveRotation(playerRigidbody.rotation * Quaternion.Euler(playerRotationY));
     }
 }
