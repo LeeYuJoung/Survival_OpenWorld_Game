@@ -142,7 +142,7 @@ public class PlayerController : MonoBehaviour
         {
             count++;
             _posY = Mathf.Lerp(_posY, applyCrouchPosY, 0.2f);
-            mainCam.transform.localPosition = new Vector3(0.0f, _posY, 0.5f);
+            mainCam.transform.localPosition = new Vector3(0.0f, _posY, 0.0f);
 
             if(count > 15)
                 break;
@@ -150,7 +150,7 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
 
-        mainCam.transform.localPosition = new Vector3(0.0f, applyCrouchPosY, 0.5f);
+        mainCam.transform.localPosition = new Vector3(0.0f, applyCrouchPosY, 0.0f);
     }
 
     // 키보드 입력에 따라 이동
