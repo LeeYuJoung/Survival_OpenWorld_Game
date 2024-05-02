@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2308679191931977346}
   - component: {fileID: 5077937020283811142}
   m_Layer: 0
-  m_Name: FirePlant_Monster
+  m_Name: FirePlant_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.9340145, y: -0.114231944}
+  m_Offset: {x: -0.9368323, y: -0.07391477}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -158,5 +158,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5965229, y: 1.0043409}
+  m_Size: {x: 0.6715219, y: 1.0715356}
   m_EdgeRadius: 0
