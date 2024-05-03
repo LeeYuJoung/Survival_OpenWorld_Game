@@ -183,9 +183,9 @@ TextureImporter:
       name: Death_3
       rect:
         serializedVersion: 2
-        x: 340
+        x: 317
         y: 0
-        width: 40
+        width: 60
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -204,9 +204,9 @@ TextureImporter:
       name: Death_4
       rect:
         serializedVersion: 2
-        x: 435
+        x: 415
         y: 0
-        width: 40
+        width: 60
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -225,9 +225,9 @@ TextureImporter:
       name: Death_5
       rect:
         serializedVersion: 2
-        x: 530
+        x: 510
         y: 0
-        width: 40
+        width: 60
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
