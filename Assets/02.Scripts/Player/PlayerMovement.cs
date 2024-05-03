@@ -6,9 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject dustGameObject;
     public GameObject jumpDustGameObject;
-
     private Rigidbody2D playerRigidbody;
-    private Collider2D playerCollider;
     private Animator playerAnimator;
 
     // 스피드 변수
@@ -17,7 +15,14 @@ public class PlayerMovement : MonoBehaviour
     public float climbSpeed;
     public float currentSpeed;
 
+    // 점프 변수
     public float jumpForce;
+    public int currentJumpCount;
+    public int maxJumpCount;
+
+    // 달리기 변수
+    private float currentTime;
+    public float runningTime;
 
     // 상태 변수
     private bool isWalk = false;
@@ -26,10 +31,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        dustGameObject = transform.GetChild(0).gameObject;
+        jumpDustGameObject = transform.GetChild(1).gameObject;  
         playerRigidbody = GetComponent<Rigidbody2D>();
-        playerCollider = GetComponent<Collider2D>();
         playerAnimator = GetComponent<Animator>();
 
+        currentTime = 0.0f;
         currentSpeed = moveSpeed;
     }
 
@@ -45,18 +52,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxis("Horizontal") > 0)
         {
             isWalk = true;
-
-            //transform.localEulerAngles = new Vector3(0, 0, 0);
             transform.localScale = new Vector3(1, 1, 1);
             transform.Translate(Vector2.right * currentSpeed * Time.deltaTime);
+            //playerRigidbody.velocity += Vector2.right * currentSpeed * Time.deltaTime;
         }
         else if (Input.GetAxis("Horizontal") < 0)
         {
             isWalk = true;
-
-            //transform.localEulerAngles = new Vector3(0, 180, 0);
             transform.localScale = new Vector3(-1, 1, 1);
             transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
+            //playerRigidbody.velocity += Vector2.left * currentSpeed * Time.deltaTime;
         }
         else
         {
@@ -88,14 +93,17 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && currentJumpCount < maxJumpCount)
         {
             isGround = false;
+            currentJumpCount++;
+
             dustGameObject.SetActive(false);
             jumpDustGameObject.SetActive(true);
 
+            playerRigidbody.gravityScale = 2.0f;
             playerRigidbody.velocity = Vector2.zero;
-            playerRigidbody.velocity = transform.up * jumpForce;
+            playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
             yield return new WaitForSeconds(0.517f);
 
@@ -112,7 +120,10 @@ public class PlayerMovement : MonoBehaviour
             isGround = true;
             isWalk = false;
             isRun = false;
+
+            currentJumpCount = 0;
             currentSpeed = moveSpeed;
+            //playerRigidbody.gravityScale = 1.0f;
         }
     }
 }
