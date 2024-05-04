@@ -101,7 +101,6 @@ public class PlayerMovement : MonoBehaviour
             dustGameObject.SetActive(false);
             jumpDustGameObject.SetActive(true);
 
-            playerRigidbody.gravityScale = 2.0f;
             playerRigidbody.velocity = Vector2.zero;
             playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
@@ -123,7 +122,6 @@ public class PlayerMovement : MonoBehaviour
 
             currentJumpCount = 0;
             currentSpeed = moveSpeed;
-            //playerRigidbody.gravityScale = 1.0f;
         }
     }
 }
