@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: 92455071f862e2a49bbaa163d1569bf6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dust Particles_Frame_0
+    originalName: 
+    pivot: {x: 1.1999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 37
+      width: 5
+      height: 2
+    spriteID: 5b627cb2b8a25d84b86d79c48dce9577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 37}
+  - name: Dust Particles_Frame_1
+    originalName: 
+    pivot: {x: 1.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 48
+      width: 7
+      height: 5
+    spriteID: 99f27f46ef41f104c8b380241d6c7498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 48}
+  - name: Dust Particles_Frame_2
+    originalName: 
+    pivot: {x: 3.75, y: -0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 4
+      width: 4
+      height: 5
+    spriteID: 7bff7fb806f31d34fa8ae93c79e5775a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 4}
+  - name: Dust Particles_Frame_3
+    originalName: 
+    pivot: {x: 4.666667, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 37
+      width: 3
+      height: 3
+    spriteID: 4bfe96941df1d6a46b20d7737178a526
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 37}
+  - name: Dust Particles_Frame_4
+    originalName: 
+    pivot: {x: 6.5, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 17
+      width: 2
+      height: 1
+    spriteID: 190bc659dbafb1e4fb0868dc37a41bf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 17}
+  - name: Dust Particles_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 17
+      width: 14
+      height: 7
+    spriteID: 39c8cc6c8f38d5e47a694ea82c34e971
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 17}
+  - name: Dust Particles_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 17
+      width: 12
+      height: 10
+    spriteID: 76991f2e45308af4d82e488e03736b64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 17}
+  - name: Dust Particles_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.5833333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 17
+      width: 16
+      height: 12
+    spriteID: 789bf14543576394f97f4e962ab5e0ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 17}
+  - name: Dust Particles_Frame_9
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 17
+      width: 17
+      height: 12
+    spriteID: 63dcd1458c23bfb4cba1c2afa0906008
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 17}
+  - name: Dust Particles_Frame_10
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.8181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 17
+      width: 17
+      height: 11
+    spriteID: dda2662cfe37d5c4b8345c278cc3faa6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 17}
+  - name: Dust Particles_Frame_11
+    originalName: 
+    pivot: {x: 2.9999998, y: -18}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 26
+      width: 2
+      height: 1
+    spriteID: c3a2d9d9327a68a4180dc9c5e1c25de8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 26}
+  - name: Dust Particles_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 37
+      width: 34
+      height: 2
+    spriteID: 4bc3ac51bd684ee4ca14d132c57dca2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 37}
+  - name: Dust Particles_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 4
+      width: 48
+      height: 5
+    spriteID: e227743b82670c04e836079cb61a1d2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 4}
+  - name: Dust Particles_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 52
+      height: 5
+    spriteID: 492b57896ebe532408a6db9765005dfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dust Particles_Frame_16
+    originalName: 
+    pivot: {x: 0.49999997, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 50
+      height: 3
+    spriteID: 428a1e3b919d8cc41b820ecbc6a32062
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: Dust Particles_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 48
+      height: 1
+    spriteID: 637865fcdfcbc584a8bb1f146a9548b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1188728579
+    name: Dust Particles
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dust Particles_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 0
+        width: 5
+        height: 2
+      spriteId: 5b627cb2b8a25d84b86d79c48dce9577
+    - name: Dust Particles_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 0
+        width: 7
+        height: 5
+      spriteId: 99f27f46ef41f104c8b380241d6c7498
+    - name: Dust Particles_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 2
+        width: 4
+        height: 5
+      spriteId: 7bff7fb806f31d34fa8ae93c79e5775a
+    - name: Dust Particles_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 12
+        y: 5
+        width: 3
+        height: 3
+      spriteId: 4bfe96941df1d6a46b20d7737178a526
+    - name: Dust Particles_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 6
+        width: 2
+        height: 1
+      spriteId: 190bc659dbafb1e4fb0868dc37a41bf1
+    - name: Dust Particles_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 19
+        y: 0
+        width: 14
+        height: 7
+      spriteId: 39c8cc6c8f38d5e47a694ea82c34e971
+    - name: Dust Particles_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 20
+        y: 4
+        width: 12
+        height: 10
+      spriteId: 76991f2e45308af4d82e488e03736b64
+    - name: Dust Particles_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 18
+        y: 7
+        width: 16
+        height: 12
+      spriteId: 789bf14543576394f97f4e962ab5e0ee
+    - name: Dust Particles_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 8
+        width: 17
+        height: 12
+      spriteId: 63dcd1458c23bfb4cba1c2afa0906008
+    - name: Dust Particles_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 17
+        y: 9
+        width: 17
+        height: 11
+      spriteId: dda2662cfe37d5c4b8345c278cc3faa6
+    - name: Dust Particles_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 20
+        y: 18
+        width: 2
+        height: 1
+      spriteId: c3a2d9d9327a68a4180dc9c5e1c25de8
+    - name: Dust Particles_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 0
+        width: 34
+        height: 2
+      spriteId: 4bc3ac51bd684ee4ca14d132c57dca2f
+    - name: Dust Particles_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 0
+        width: 48
+        height: 5
+      spriteId: e227743b82670c04e836079cb61a1d2b
+    - name: Dust Particles_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 2
+        width: 52
+        height: 5
+      spriteId: 492b57896ebe532408a6db9765005dfa
+    - name: Dust Particles_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 5
+        width: 50
+        height: 3
+      spriteId: 428a1e3b919d8cc41b820ecbc6a32062
+    - name: Dust Particles_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 6
+        width: 48
+        height: 1
+      spriteId: 637865fcdfcbc584a8bb1f146a9548b8
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 52, y: 20}

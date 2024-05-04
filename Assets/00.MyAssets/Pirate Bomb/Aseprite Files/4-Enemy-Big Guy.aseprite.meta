@@ -1,0 +1,3746 @@
+fileFormatVersion: 2
+guid: b78f521031d14b042baa8ad708a330d6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: 4-Enemy-Big Guy_Frame_0
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 79
+      width: 54
+      height: 68
+    spriteID: b9fb40547eb235f46876b148e6179b39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_11
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 668
+      width: 54
+      height: 67
+    spriteID: 17974cefdfc0ac646aa5d951fff8c5a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 668}
+  - name: 4-Enemy-Big Guy_Frame_12
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 535
+      width: 54
+      height: 66
+    spriteID: 6583ed26895d14641849ac40ffc81f5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 535}
+  - name: 4-Enemy-Big Guy_Frame_13
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 666
+      width: 54
+      height: 64
+    spriteID: 7e1c34d581aa5a44283aed84e3eca781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 666}
+  - name: 4-Enemy-Big Guy_Frame_14
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 79
+      width: 56
+      height: 63
+    spriteID: 5ec41b21a6efb3e4f9920c85a0471ad4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_16
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 738
+      width: 54
+      height: 64
+    spriteID: 41ea02a0856bce8449aa87e12bbcf583
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 738}
+  - name: 4-Enemy-Big Guy_Frame_27
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 908
+      width: 54
+      height: 65
+    spriteID: 9f6a9dd9a5e15da42b4794f65c389e25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 908}
+  - name: 4-Enemy-Big Guy_Frame_28
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 56
+      height: 73
+    spriteID: 0e5c6e88e3794bd4d8b27866c30bb47d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_30
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 56
+      height: 73
+    spriteID: 24acbd933dea47f408e615b189b01a81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: 4-Enemy-Big Guy_Frame_31
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 562
+      width: 56
+      height: 69
+    spriteID: 6a4676824f253284e84c8bdc42a4ce70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 562}
+  - name: 4-Enemy-Big Guy_Frame_32
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 797
+      width: 56
+      height: 67
+    spriteID: f1914666bd2111a4bb6413ded84fb45b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 797}
+  - name: 4-Enemy-Big Guy_Frame_33
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 155
+      width: 54
+      height: 68
+    spriteID: 10c33aadf9c58c348be1b56a4adbf18d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 155}
+  - name: 4-Enemy-Big Guy_Frame_34
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 231
+      width: 54
+      height: 68
+    spriteID: 4711c68cb07a89144a9f1aa8c93e726c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 231}
+  - name: 4-Enemy-Big Guy_Frame_36
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 307
+      width: 54
+      height: 68
+    spriteID: 9b5b295dc816a1d4eb10d525ceb3149f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 307}
+  - name: 4-Enemy-Big Guy_Frame_38
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.044117644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 383
+      width: 54
+      height: 68
+    spriteID: 7dce475d67b14d740a3ce7e60234d025
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 383}
+  - name: 4-Enemy-Big Guy_Frame_39
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 234
+      width: 54
+      height: 69
+    spriteID: 9cb360102d2030a47bd4c451a4b45898
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 234}
+  - name: 4-Enemy-Big Guy_Frame_42
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.013888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 322
+      width: 54
+      height: 72
+    spriteID: d581dd5c3fda3554087fbd4dbfd8391c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 322}
+  - name: 4-Enemy-Big Guy_Frame_43
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 663
+      y: 4
+      width: 56
+      height: 65
+    spriteID: a1d5f46f51a6c0b47be26683df588b8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 663, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_45
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 872
+      width: 56
+      height: 67
+    spriteID: cd447cb7c5e42924ca7bff71f886bc95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 872}
+  - name: 4-Enemy-Big Guy_Frame_46
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.059701495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 743
+      width: 54
+      height: 67
+    spriteID: c1a491358fe69d8418f71ef211bbe866
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 743}
+  - name: 4-Enemy-Big Guy_Frame_47
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 459
+      width: 54
+      height: 68
+    spriteID: 9c229d71dbb3b6c4783beab9e1a47a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 459}
+  - name: 4-Enemy-Big Guy_Frame_50
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.028169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 639
+      width: 54
+      height: 71
+    spriteID: ffe28dcbdcc560641ba92534f2a3bb54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 639}
+  - name: 4-Enemy-Big Guy_Frame_51
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 727
+      y: 4
+      width: 56
+      height: 65
+    spriteID: 678d1105fd229b4479675abb1f2c5a08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 727, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_53
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 947
+      width: 56
+      height: 67
+    spriteID: cc615097a0bbae9458d450fd0f75339e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 947}
+  - name: 4-Enemy-Big Guy_Frame_54
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 818
+      width: 54
+      height: 67
+    spriteID: 27505ec106f0afc4f84155c36fb51fe3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 818}
+  - name: 4-Enemy-Big Guy_Frame_55
+    originalName: 
+    pivot: {x: 0.6320755, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 518
+      width: 53
+      height: 66
+    spriteID: 0a63f1bfad6ad9149bd44864690ca208
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 518}
+  - name: 4-Enemy-Big Guy_Frame_57
+    originalName: 
+    pivot: {x: 0.33620688, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 79
+      width: 58
+      height: 70
+    spriteID: a866f01f3010e7d4c8deaee6a8954c4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_58
+    originalName: 
+    pivot: {x: 0.35344827, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 157
+      width: 58
+      height: 69
+    spriteID: ae56ad6b68dce974bb9bd425e1ec5606
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 157}
+  - name: 4-Enemy-Big Guy_Frame_59
+    originalName: 
+    pivot: {x: 0.4456522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 217
+      width: 46
+      height: 69
+    spriteID: 65597d21bf6f6c64cb975735bd400365
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 217}
+  - name: 4-Enemy-Big Guy_Frame_60
+    originalName: 
+    pivot: {x: 0.48809525, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 448
+      width: 42
+      height: 69
+    spriteID: c26c0b265ae1c7b4390f9d151781037b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 448}
+  - name: 4-Enemy-Big Guy_Frame_61
+    originalName: 
+    pivot: {x: 0.61764705, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 730
+      width: 51
+      height: 66
+    spriteID: 656ded12b6aba2c45919edcb19847c7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 730}
+  - name: 4-Enemy-Big Guy_Frame_62
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 791
+      y: 4
+      width: 56
+      height: 65
+    spriteID: 0e0513c78ce46a24580035652112140d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 791, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_64
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 850
+      width: 56
+      height: 66
+    spriteID: 258cee4a4fc419d4687dc336298ed6f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 850}
+  - name: 4-Enemy-Big Guy_Frame_65
+    originalName: 
+    pivot: {x: 0.6057692, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 832
+      width: 52
+      height: 68
+    spriteID: a988572e1626ccf4e8ea616cb871ea59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 832}
+  - name: 4-Enemy-Big Guy_Frame_66
+    originalName: 
+    pivot: {x: 0.6057692, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 878
+      width: 52
+      height: 64
+    spriteID: a46e9749032cec549af6689440a2a5c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 878}
+  - name: 4-Enemy-Big Guy_Frame_68
+    originalName: 
+    pivot: {x: 0.6057692, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 657
+      width: 52
+      height: 65
+    spriteID: 3f844a84972334647b89f1394ef6df44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 657}
+  - name: 4-Enemy-Big Guy_Frame_69
+    originalName: 
+    pivot: {x: 0.6132076, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 757
+      width: 53
+      height: 67
+    spriteID: d8f4ea2f9f065984eaf546a5a847d351
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 757}
+  - name: 4-Enemy-Big Guy_Frame_70
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 535
+      width: 54
+      height: 68
+    spriteID: dcc2ae99708a5164d87043bcebbac303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 535}
+  - name: 4-Enemy-Big Guy_Frame_71
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 311
+      width: 54
+      height: 69
+    spriteID: 2e2b67e77e621f84ab0263687dce63cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 311}
+  - name: 4-Enemy-Big Guy_Frame_73
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 611
+      width: 54
+      height: 68
+    spriteID: 490bf08318193ed4ea1a05c54351e46c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 611}
+  - name: 4-Enemy-Big Guy_Frame_74
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.044117644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 687
+      width: 54
+      height: 68
+    spriteID: 0a8b593930049ad4f8ad6a3987889661
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 687}
+  - name: 4-Enemy-Big Guy_Frame_75
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 388
+      width: 54
+      height: 69
+    spriteID: 48dd2457a0676fb4a97008d5d7afd0e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 388}
+  - name: 4-Enemy-Big Guy_Frame_78
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.013888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 402
+      width: 54
+      height: 72
+    spriteID: 1f1c8066890bfe548afcac4c46081b2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 402}
+  - name: 4-Enemy-Big Guy_Frame_79
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 855
+      y: 4
+      width: 56
+      height: 65
+    spriteID: 1a6f1b96afc7d0d40947c0db89bdf9d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 855, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_81
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 535
+      y: 4
+      width: 56
+      height: 67
+    spriteID: 535401ae46b2b6241863d680ce3bcbf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 535, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_82
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.059701495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 893
+      width: 54
+      height: 67
+    spriteID: 20486249dedba8943bf71d6791b0cf6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 893}
+  - name: 4-Enemy-Big Guy_Frame_83
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 763
+      width: 54
+      height: 68
+    spriteID: 00576bc074a282e42a76ba67e725addc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 763}
+  - name: 4-Enemy-Big Guy_Frame_86
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.028169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 718
+      width: 54
+      height: 71
+    spriteID: ec206900c1324004f82fbe75c209d9a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 718}
+  - name: 4-Enemy-Big Guy_Frame_87
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 4
+      width: 56
+      height: 65
+    spriteID: 175d3000d5664644ea20018d714f1faa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_89
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 599
+      y: 4
+      width: 56
+      height: 67
+    spriteID: 03541f295d707ab4a81620830a1fe47c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 599, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_90
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 385
+      width: 54
+      height: 67
+    spriteID: 149ab4b146bc0a242a24b69031b1721b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 385}
+  - name: 4-Enemy-Big Guy_Frame_91
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 609
+      width: 54
+      height: 66
+    spriteID: d97b700a0d996fe48a98e4cafbfc7263
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 609}
+  - name: 4-Enemy-Big Guy_Frame_93
+    originalName: 
+    pivot: {x: 0.39, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 440
+      width: 50
+      height: 70
+    spriteID: 3349ce01184b72f44bcaaabd4aaf7f00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 440}
+  - name: 4-Enemy-Big Guy_Frame_94
+    originalName: 
+    pivot: {x: 0.4456522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 294
+      width: 46
+      height: 69
+    spriteID: 4e925f3dc0b0f954581e6d34d0d73b15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 294}
+  - name: 4-Enemy-Big Guy_Frame_95
+    originalName: 
+    pivot: {x: 0.4456522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 371
+      width: 46
+      height: 69
+    spriteID: 3abab96ce93674f4fa5ecd8141ae8c91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 371}
+  - name: 4-Enemy-Big Guy_Frame_96
+    originalName: 
+    pivot: {x: 0.48809525, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 525
+      width: 42
+      height: 69
+    spriteID: 08a5ffb310a6f1e4cbbe7a7b8f99021b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 525}
+  - name: 4-Enemy-Big Guy_Frame_97
+    originalName: 
+    pivot: {x: 0.61764705, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 804
+      width: 51
+      height: 66
+    spriteID: 03642b02c696e9b4daaf5165c0a9b6b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 804}
+  - name: 4-Enemy-Big Guy_Frame_98
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 79
+      width: 56
+      height: 65
+    spriteID: 01057c38ec1b71b4a8a2a8d023184276
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_100
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 924
+      width: 56
+      height: 66
+    spriteID: 3c562d3634e7271438a47dc21a94dfed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 924}
+  - name: 4-Enemy-Big Guy_Frame_101
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 221
+      width: 54
+      height: 65
+    spriteID: 4845b4e84af118840b7d6e976288c985
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 221}
+  - name: 4-Enemy-Big Guy_Frame_102
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 307
+      width: 52
+      height: 70
+    spriteID: a81d545cd4c75294fad07b06f74733ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 307}
+  - name: 4-Enemy-Big Guy_Frame_104
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 460
+      width: 54
+      height: 67
+    spriteID: 94df625967c509c4393a5300d4364d1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 460}
+  - name: 4-Enemy-Big Guy_Frame_105
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 294
+      width: 54
+      height: 65
+    spriteID: 408a0556c68d64a47bc4b6a917ec46ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 294}
+  - name: 4-Enemy-Big Guy_Frame_106
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 839
+      width: 54
+      height: 68
+    spriteID: 6ed53de089b74394cb4ffc6f42b45615
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 839}
+  - name: 4-Enemy-Big Guy_Frame_107
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.013888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 482
+      width: 54
+      height: 72
+    spriteID: d0b93a0019b401f4f902efff11fb4add
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 482}
+  - name: 4-Enemy-Big Guy_Frame_108
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 79
+      width: 56
+      height: 61
+    spriteID: 81b4b9b06eac3bf459509366159f7ee8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_110
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 367
+      width: 54
+      height: 65
+    spriteID: 1e76b4612f4919f4e873aad59b13380a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 367}
+  - name: 4-Enemy-Big Guy_Frame_111
+    originalName: 
+    pivot: {x: 0.4779412, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 68
+      height: 67
+    spriteID: ecbbd636e6e78d84590e0ae3948a2393
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_114
+    originalName: 
+    pivot: {x: 0.4779412, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 68
+      height: 67
+    spriteID: 8509322708be53748bbd5aaca80b35bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_116
+    originalName: 
+    pivot: {x: 0.49264708, y: -0.045454543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 4
+      width: 68
+      height: 66
+    spriteID: eb84c0e3f9706644dad7096fd4d4ccfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 4
+      width: 67
+      height: 66
+    spriteID: 5bf596cfbd17f3a4b8e7bafab31c1343
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_118
+    originalName: 
+    pivot: {x: 0.6442308, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 583
+      width: 52
+      height: 66
+    spriteID: c22e026edc6712a4ea409cf937bbc307
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 583}
+  - name: 4-Enemy-Big Guy_Frame_119
+    originalName: 
+    pivot: {x: 0.6355932, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 79
+      width: 59
+      height: 50
+    spriteID: 22ef663ca45380a40a9dde1df418b8f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_122
+    originalName: 
+    pivot: {x: 0.6355932, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 137
+      width: 59
+      height: 50
+    spriteID: 781f2dc725395e64b8d2c8fefbe56e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 137}
+  - name: 4-Enemy-Big Guy_Frame_124
+    originalName: 
+    pivot: {x: 0.6293103, y: -0.061224487}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 369
+      width: 58
+      height: 49
+    spriteID: 4710d8d946390b24f85e9a91ad284e85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 369}
+  - name: 4-Enemy-Big Guy_Frame_125
+    originalName: 
+    pivot: {x: 0.62096775, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 641
+      y: 79
+      width: 62
+      height: 38
+    spriteID: 8bd23268f85a719408547d3c384dd526
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 641, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_127
+    originalName: 
+    pivot: {x: 0.6293103, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 474
+      width: 58
+      height: 39
+    spriteID: 1967d081e0a9e344ba6889da5546dfb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 474}
+  - name: 4-Enemy-Big Guy_Frame_128
+    originalName: 
+    pivot: {x: 0.6293103, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 426
+      width: 58
+      height: 40
+    spriteID: 4c014789abac9ec47ab575537e6b42e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 426}
+  - name: 4-Enemy-Big Guy_Frame_1
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 915
+      width: 54
+      height: 68
+    spriteID: ce4c409bcd2cf9f4695ffa2b85e900ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 915}
+  - name: 4-Enemy-Big Guy_Frame_2
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 79
+      width: 54
+      height: 68
+    spriteID: 97c721f9aae3d85469392a67cbc49706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_3
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 155
+      width: 54
+      height: 68
+    spriteID: abdfe40ac15899f488632633865567f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 155}
+  - name: 4-Enemy-Big Guy_Frame_4
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 231
+      width: 54
+      height: 68
+    spriteID: a7b4dde8818c5ee47b5e367ebef85982
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 231}
+  - name: 4-Enemy-Big Guy_Frame_5
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 307
+      width: 54
+      height: 68
+    spriteID: b029a325217c98649b07b70d8006217b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 307}
+  - name: 4-Enemy-Big Guy_Frame_6
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 383
+      width: 54
+      height: 68
+    spriteID: 732d429badf65ec4587b35c292b3b019
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 383}
+  - name: 4-Enemy-Big Guy_Frame_7
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 459
+      width: 54
+      height: 68
+    spriteID: fa148e5c846152046b17c3da721cf284
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 459}
+  - name: 4-Enemy-Big Guy_Frame_8
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 535
+      width: 54
+      height: 68
+    spriteID: 877b8d5466a87b94aa9cf73a78293ec1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 535}
+  - name: 4-Enemy-Big Guy_Frame_9
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 611
+      width: 54
+      height: 68
+    spriteID: a62c06fae222fbd429a5286236ec7594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 611}
+  - name: 4-Enemy-Big Guy_Frame_10
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 687
+      width: 54
+      height: 68
+    spriteID: 68f6d45bee2c18e4395dcf8e6a96e725
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 687}
+  - name: 4-Enemy-Big Guy_Frame_15
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 150
+      width: 56
+      height: 63
+    spriteID: 1e1f26f4fe82feb4d9bcba209d922d5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 150}
+  - name: 4-Enemy-Big Guy_Frame_17
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 810
+      width: 54
+      height: 64
+    spriteID: 86fab6eb1d2ecde41801a830ec26004b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 810}
+  - name: 4-Enemy-Big Guy_Frame_18
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 882
+      width: 54
+      height: 64
+    spriteID: 781cd44e16a4d304fbc9d83937a289bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 882}
+  - name: 4-Enemy-Big Guy_Frame_19
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 954
+      width: 54
+      height: 64
+    spriteID: c41d2ca5c73b3bf41a3dfe7e597eb96d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 954}
+  - name: 4-Enemy-Big Guy_Frame_20
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 79
+      width: 54
+      height: 64
+    spriteID: 4fd06fb13248cf249bf41ca0be16fbf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_21
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 151
+      width: 54
+      height: 64
+    spriteID: 5e4ab39b15ed29947ae8a1a2d47623c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 151}
+  - name: 4-Enemy-Big Guy_Frame_22
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 223
+      width: 54
+      height: 64
+    spriteID: c6ffe1cdad5438743b16faa52dfb436d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 223}
+  - name: 4-Enemy-Big Guy_Frame_23
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 295
+      width: 54
+      height: 64
+    spriteID: 6784532e23c593143b85f928cf21a3f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 295}
+  - name: 4-Enemy-Big Guy_Frame_24
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 367
+      width: 54
+      height: 64
+    spriteID: a667b0e07d823f24ea20cb947ec1eb52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 367}
+  - name: 4-Enemy-Big Guy_Frame_25
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 439
+      width: 54
+      height: 64
+    spriteID: 085bb25575779c04eb9bd7c435f024d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 439}
+  - name: 4-Enemy-Big Guy_Frame_26
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 511
+      width: 54
+      height: 64
+    spriteID: fe998bfcd61c6994cac91af6b08359b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 511}
+  - name: 4-Enemy-Big Guy_Frame_29
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 241
+      width: 56
+      height: 73
+    spriteID: bd03ae6785b427c49a1eb3d66d46d5d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 241}
+  - name: 4-Enemy-Big Guy_Frame_35
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 763
+      width: 54
+      height: 68
+    spriteID: 42823bf1ffd48d946b8300bae0746e35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 763}
+  - name: 4-Enemy-Big Guy_Frame_37
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 839
+      width: 54
+      height: 68
+    spriteID: f716cb73096c47e4b8ea7619085cc498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 839}
+  - name: 4-Enemy-Big Guy_Frame_40
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 465
+      width: 54
+      height: 69
+    spriteID: 49a8e6d9624239b49b3a61e6e81c366f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 465}
+  - name: 4-Enemy-Big Guy_Frame_41
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 542
+      width: 54
+      height: 69
+    spriteID: fc813b563808044418f894e3ca951374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 542}
+  - name: 4-Enemy-Big Guy_Frame_44
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 152
+      width: 56
+      height: 65
+    spriteID: 127aaa2f8496df043952753df404f5d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 152}
+  - name: 4-Enemy-Big Guy_Frame_48
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 915
+      width: 54
+      height: 68
+    spriteID: 72aefe0eead4aed488f6f45e16bc0620
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 915}
+  - name: 4-Enemy-Big Guy_Frame_49
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 79
+      width: 54
+      height: 68
+    spriteID: 5ddcd36c73270ec478ffb7ee1e13be59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 79}
+  - name: 4-Enemy-Big Guy_Frame_52
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 225
+      width: 56
+      height: 65
+    spriteID: d78a91fd5783d884e998fc613bad6afc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 225}
+  - name: 4-Enemy-Big Guy_Frame_56
+    originalName: 
+    pivot: {x: 0.6320755, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 592
+      width: 53
+      height: 66
+    spriteID: 7e5d64fcb3d22dd4db6c3616f40853c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 592}
+  - name: 4-Enemy-Big Guy_Frame_63
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 298
+      width: 56
+      height: 65
+    spriteID: 9a1ca3b6402917a4e96e9caabb7ad74d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 298}
+  - name: 4-Enemy-Big Guy_Frame_67
+    originalName: 
+    pivot: {x: 0.6057692, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 950
+      width: 52
+      height: 64
+    spriteID: 33d5c613d765fe143b461fcfcbd76414
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 950}
+  - name: 4-Enemy-Big Guy_Frame_72
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 619
+      width: 54
+      height: 69
+    spriteID: ae9a7f0cff921764db513c3c784b1600
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 619}
+  - name: 4-Enemy-Big Guy_Frame_76
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 696
+      width: 54
+      height: 69
+    spriteID: 6be258d9e8e0dd2409c654f95dce7b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 696}
+  - name: 4-Enemy-Big Guy_Frame_77
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.072463766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 773
+      width: 54
+      height: 69
+    spriteID: f0e29505cfa91d949970e4032507358f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 773}
+  - name: 4-Enemy-Big Guy_Frame_80
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 371
+      width: 56
+      height: 65
+    spriteID: 6abb9cf6facc1ff42b7a9c8de1f73b52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 371}
+  - name: 4-Enemy-Big Guy_Frame_84
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 155
+      width: 54
+      height: 68
+    spriteID: 04cbcf3f73dcc7b44bfa551af50e4c9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 155}
+  - name: 4-Enemy-Big Guy_Frame_85
+    originalName: 
+    pivot: {x: 0.6203704, y: -0.08823529}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 231
+      width: 54
+      height: 68
+    spriteID: 1117ed08cbb7037449db4f19a9335a20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 231}
+  - name: 4-Enemy-Big Guy_Frame_88
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 444
+      width: 56
+      height: 65
+    spriteID: 109d7be79d2244c45b5dd04c70c80cbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 444}
+  - name: 4-Enemy-Big Guy_Frame_92
+    originalName: 
+    pivot: {x: 0.6203704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 683
+      width: 54
+      height: 66
+    spriteID: e25be326a7c879e4cb2240b4fb73785c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 683}
+  - name: 4-Enemy-Big Guy_Frame_99
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 517
+      width: 56
+      height: 65
+    spriteID: 5cccba023bcfd00419b76b6221aa4c71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 517}
+  - name: 4-Enemy-Big Guy_Frame_103
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 590
+      width: 52
+      height: 70
+    spriteID: 0392bd3765ddc5d45b6db8514fd6ad40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 590}
+  - name: 4-Enemy-Big Guy_Frame_109
+    originalName: 
+    pivot: {x: 0.61607146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 148
+      width: 56
+      height: 61
+    spriteID: 23da99f590d01844fbabeb5e44077d68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 148}
+  - name: 4-Enemy-Big Guy_Frame_112
+    originalName: 
+    pivot: {x: 0.4779412, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 4
+      width: 68
+      height: 67
+    spriteID: 643156362bcd58f47a209e044376b25b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_113
+    originalName: 
+    pivot: {x: 0.4779412, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 4
+      width: 68
+      height: 67
+    spriteID: 1648745e1e675894080b9489781bd612
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_115
+    originalName: 
+    pivot: {x: 0.4779412, y: -0.04477612}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 308
+      y: 4
+      width: 68
+      height: 67
+    spriteID: 731b4b6a042e79349b50c6a9f99f3022
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 4}
+  - name: 4-Enemy-Big Guy_Frame_120
+    originalName: 
+    pivot: {x: 0.6355932, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 195
+      width: 59
+      height: 50
+    spriteID: 1321cdc8db067414a8c87e48d789fe2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 195}
+  - name: 4-Enemy-Big Guy_Frame_121
+    originalName: 
+    pivot: {x: 0.6355932, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 253
+      width: 59
+      height: 50
+    spriteID: 0dea3065dd623b4459a1afaf1c207c99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 253}
+  - name: 4-Enemy-Big Guy_Frame_123
+    originalName: 
+    pivot: {x: 0.6355932, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 311
+      width: 59
+      height: 50
+    spriteID: a1a421c3c112d104b9083614cb89f090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 311}
+  - name: 4-Enemy-Big Guy_Frame_126
+    originalName: 
+    pivot: {x: 0.62096775, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 641
+      y: 125
+      width: 62
+      height: 38
+    spriteID: d34165124616ad14782a82049b1510a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 641, y: 125}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -829767215
+    name: 4-Enemy-Big Guy
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: 4-Enemy-Big Guy_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: b9fb40547eb235f46876b148e6179b39
+    - name: 4-Enemy-Big Guy_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 67
+      spriteId: 17974cefdfc0ac646aa5d951fff8c5a7
+    - name: 4-Enemy-Big Guy_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 66
+      spriteId: 6583ed26895d14641849ac40ffc81f5a
+    - name: 4-Enemy-Big Guy_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 7e1c34d581aa5a44283aed84e3eca781
+    - name: 4-Enemy-Big Guy_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 63
+      spriteId: 5ec41b21a6efb3e4f9920c85a0471ad4
+    - name: 4-Enemy-Big Guy_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 41ea02a0856bce8449aa87e12bbcf583
+    - name: 4-Enemy-Big Guy_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 9f6a9dd9a5e15da42b4794f65c389e25
+    - name: 4-Enemy-Big Guy_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 73
+      spriteId: 0e5c6e88e3794bd4d8b27866c30bb47d
+    - name: 4-Enemy-Big Guy_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 73
+      spriteId: 24acbd933dea47f408e615b189b01a81
+    - name: 4-Enemy-Big Guy_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 69
+      spriteId: 6a4676824f253284e84c8bdc42a4ce70
+    - name: 4-Enemy-Big Guy_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 67
+      spriteId: f1914666bd2111a4bb6413ded84fb45b
+    - name: 4-Enemy-Big Guy_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 10c33aadf9c58c348be1b56a4adbf18d
+    - name: 4-Enemy-Big Guy_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 4711c68cb07a89144a9f1aa8c93e726c
+    - name: 4-Enemy-Big Guy_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 9b5b295dc816a1d4eb10d525ceb3149f
+    - name: 4-Enemy-Big Guy_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 5
+        y: 3
+        width: 54
+        height: 68
+      spriteId: 7dce475d67b14d740a3ce7e60234d025
+    - name: 4-Enemy-Big Guy_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: 9cb360102d2030a47bd4c451a4b45898
+    - name: 4-Enemy-Big Guy_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 5
+        y: 1
+        width: 54
+        height: 72
+      spriteId: d581dd5c3fda3554087fbd4dbfd8391c
+    - name: 4-Enemy-Big Guy_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: a1d5f46f51a6c0b47be26683df588b8f
+    - name: 4-Enemy-Big Guy_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 67
+      spriteId: cd447cb7c5e42924ca7bff71f886bc95
+    - name: 4-Enemy-Big Guy_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 5
+        y: 4
+        width: 54
+        height: 67
+      spriteId: c1a491358fe69d8418f71ef211bbe866
+    - name: 4-Enemy-Big Guy_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 9c229d71dbb3b6c4783beab9e1a47a79
+    - name: 4-Enemy-Big Guy_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 5
+        y: 2
+        width: 54
+        height: 71
+      spriteId: ffe28dcbdcc560641ba92534f2a3bb54
+    - name: 4-Enemy-Big Guy_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 678d1105fd229b4479675abb1f2c5a08
+    - name: 4-Enemy-Big Guy_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 67
+      spriteId: cc615097a0bbae9458d450fd0f75339e
+    - name: 4-Enemy-Big Guy_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 67
+      spriteId: 27505ec106f0afc4f84155c36fb51fe3
+    - name: 4-Enemy-Big Guy_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 5
+        y: 0
+        width: 53
+        height: 66
+      spriteId: 0a63f1bfad6ad9149bd44864690ca208
+    - name: 4-Enemy-Big Guy_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 19
+        y: 0
+        width: 58
+        height: 70
+      spriteId: a866f01f3010e7d4c8deaee6a8954c4c
+    - name: 4-Enemy-Big Guy_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 18
+        y: 0
+        width: 58
+        height: 69
+      spriteId: ae56ad6b68dce974bb9bd425e1ec5606
+    - name: 4-Enemy-Big Guy_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 18
+        y: 0
+        width: 46
+        height: 69
+      spriteId: 65597d21bf6f6c64cb975735bd400365
+    - name: 4-Enemy-Big Guy_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 18
+        y: 0
+        width: 42
+        height: 69
+      spriteId: c26c0b265ae1c7b4390f9d151781037b
+    - name: 4-Enemy-Big Guy_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 7
+        y: 0
+        width: 51
+        height: 66
+      spriteId: 656ded12b6aba2c45919edcb19847c7b
+    - name: 4-Enemy-Big Guy_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 0e0513c78ce46a24580035652112140d
+    - name: 4-Enemy-Big Guy_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 66
+      spriteId: 258cee4a4fc419d4687dc336298ed6f5
+    - name: 4-Enemy-Big Guy_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 7
+        y: 0
+        width: 52
+        height: 68
+      spriteId: a988572e1626ccf4e8ea616cb871ea59
+    - name: 4-Enemy-Big Guy_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 7
+        y: 0
+        width: 52
+        height: 64
+      spriteId: a46e9749032cec549af6689440a2a5c6
+    - name: 4-Enemy-Big Guy_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 7
+        y: 0
+        width: 52
+        height: 65
+      spriteId: 3f844a84972334647b89f1394ef6df44
+    - name: 4-Enemy-Big Guy_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 6
+        y: 0
+        width: 53
+        height: 67
+      spriteId: d8f4ea2f9f065984eaf546a5a847d351
+    - name: 4-Enemy-Big Guy_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: dcc2ae99708a5164d87043bcebbac303
+    - name: 4-Enemy-Big Guy_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 69
+      spriteId: 2e2b67e77e621f84ab0263687dce63cf
+    - name: 4-Enemy-Big Guy_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 490bf08318193ed4ea1a05c54351e46c
+    - name: 4-Enemy-Big Guy_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 5
+        y: 3
+        width: 54
+        height: 68
+      spriteId: 0a8b593930049ad4f8ad6a3987889661
+    - name: 4-Enemy-Big Guy_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: 48dd2457a0676fb4a97008d5d7afd0e7
+    - name: 4-Enemy-Big Guy_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 5
+        y: 1
+        width: 54
+        height: 72
+      spriteId: 1f1c8066890bfe548afcac4c46081b2a
+    - name: 4-Enemy-Big Guy_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 1a6f1b96afc7d0d40947c0db89bdf9d9
+    - name: 4-Enemy-Big Guy_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 67
+      spriteId: 535401ae46b2b6241863d680ce3bcbf7
+    - name: 4-Enemy-Big Guy_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 5
+        y: 4
+        width: 54
+        height: 67
+      spriteId: 20486249dedba8943bf71d6791b0cf6c
+    - name: 4-Enemy-Big Guy_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 00576bc074a282e42a76ba67e725addc
+    - name: 4-Enemy-Big Guy_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 5
+        y: 2
+        width: 54
+        height: 71
+      spriteId: ec206900c1324004f82fbe75c209d9a0
+    - name: 4-Enemy-Big Guy_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 175d3000d5664644ea20018d714f1faa
+    - name: 4-Enemy-Big Guy_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 67
+      spriteId: 03541f295d707ab4a81620830a1fe47c
+    - name: 4-Enemy-Big Guy_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 67
+      spriteId: 149ab4b146bc0a242a24b69031b1721b
+    - name: 4-Enemy-Big Guy_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 66
+      spriteId: d97b700a0d996fe48a98e4cafbfc7263
+    - name: 4-Enemy-Big Guy_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 19
+        y: 0
+        width: 50
+        height: 70
+      spriteId: 3349ce01184b72f44bcaaabd4aaf7f00
+    - name: 4-Enemy-Big Guy_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 18
+        y: 0
+        width: 46
+        height: 69
+      spriteId: 4e925f3dc0b0f954581e6d34d0d73b15
+    - name: 4-Enemy-Big Guy_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 18
+        y: 0
+        width: 46
+        height: 69
+      spriteId: 3abab96ce93674f4fa5ecd8141ae8c91
+    - name: 4-Enemy-Big Guy_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 18
+        y: 0
+        width: 42
+        height: 69
+      spriteId: 08a5ffb310a6f1e4cbbe7a7b8f99021b
+    - name: 4-Enemy-Big Guy_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 7
+        y: 0
+        width: 51
+        height: 66
+      spriteId: 03642b02c696e9b4daaf5165c0a9b6b1
+    - name: 4-Enemy-Big Guy_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 01057c38ec1b71b4a8a2a8d023184276
+    - name: 4-Enemy-Big Guy_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 66
+      spriteId: 3c562d3634e7271438a47dc21a94dfed
+    - name: 4-Enemy-Big Guy_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 4845b4e84af118840b7d6e976288c985
+    - name: 4-Enemy-Big Guy_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 6
+        y: 0
+        width: 52
+        height: 70
+      spriteId: a81d545cd4c75294fad07b06f74733ed
+    - name: 4-Enemy-Big Guy_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 5
+        y: 3
+        width: 54
+        height: 67
+      spriteId: 94df625967c509c4393a5300d4364d1d
+    - name: 4-Enemy-Big Guy_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 65
+      spriteId: 408a0556c68d64a47bc4b6a917ec46ea
+    - name: 4-Enemy-Big Guy_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 5
+        y: 4
+        width: 54
+        height: 68
+      spriteId: 6ed53de089b74394cb4ffc6f42b45615
+    - name: 4-Enemy-Big Guy_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 5
+        y: 1
+        width: 54
+        height: 72
+      spriteId: d0b93a0019b401f4f902efff11fb4add
+    - name: 4-Enemy-Big Guy_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 61
+      spriteId: 81b4b9b06eac3bf459509366159f7ee8
+    - name: 4-Enemy-Big Guy_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 65
+      spriteId: 1e76b4612f4919f4e873aad59b13380a
+    - name: 4-Enemy-Big Guy_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 6
+        y: 3
+        width: 68
+        height: 67
+      spriteId: ecbbd636e6e78d84590e0ae3948a2393
+    - name: 4-Enemy-Big Guy_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 6
+        y: 3
+        width: 68
+        height: 67
+      spriteId: 8509322708be53748bbd5aaca80b35bf
+    - name: 4-Enemy-Big Guy_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 5
+        y: 3
+        width: 68
+        height: 66
+      spriteId: eb84c0e3f9706644dad7096fd4d4ccfd
+    - name: 4-Enemy-Big Guy_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 5
+        y: 2
+        width: 67
+        height: 66
+      spriteId: 5bf596cfbd17f3a4b8e7bafab31c1343
+    - name: 4-Enemy-Big Guy_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 5
+        y: 2
+        width: 52
+        height: 66
+      spriteId: c22e026edc6712a4ea409cf937bbc307
+    - name: 4-Enemy-Big Guy_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 1
+        y: 2
+        width: 59
+        height: 50
+      spriteId: 22ef663ca45380a40a9dde1df418b8f8
+    - name: 4-Enemy-Big Guy_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 1
+        y: 2
+        width: 59
+        height: 50
+      spriteId: 781f2dc725395e64b8d2c8fefbe56e29
+    - name: 4-Enemy-Big Guy_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 2
+        y: 3
+        width: 58
+        height: 49
+      spriteId: 4710d8d946390b24f85e9a91ad284e85
+    - name: 4-Enemy-Big Guy_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 0
+        y: 0
+        width: 62
+        height: 38
+      spriteId: 8bd23268f85a719408547d3c384dd526
+    - name: 4-Enemy-Big Guy_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 2
+        y: 0
+        width: 58
+        height: 39
+      spriteId: 1967d081e0a9e344ba6889da5546dfb8
+    - name: 4-Enemy-Big Guy_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 2
+        y: 0
+        width: 58
+        height: 40
+      spriteId: 4c014789abac9ec47ab575537e6b42e8
+    - name: 4-Enemy-Big Guy_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: ce4c409bcd2cf9f4695ffa2b85e900ea
+    - name: 4-Enemy-Big Guy_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 97c721f9aae3d85469392a67cbc49706
+    - name: 4-Enemy-Big Guy_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: abdfe40ac15899f488632633865567f1
+    - name: 4-Enemy-Big Guy_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: a7b4dde8818c5ee47b5e367ebef85982
+    - name: 4-Enemy-Big Guy_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: b029a325217c98649b07b70d8006217b
+    - name: 4-Enemy-Big Guy_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 732d429badf65ec4587b35c292b3b019
+    - name: 4-Enemy-Big Guy_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: fa148e5c846152046b17c3da721cf284
+    - name: 4-Enemy-Big Guy_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 877b8d5466a87b94aa9cf73a78293ec1
+    - name: 4-Enemy-Big Guy_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: a62c06fae222fbd429a5286236ec7594
+    - name: 4-Enemy-Big Guy_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 68f6d45bee2c18e4395dcf8e6a96e725
+    - name: 4-Enemy-Big Guy_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 63
+      spriteId: 1e1f26f4fe82feb4d9bcba209d922d5b
+    - name: 4-Enemy-Big Guy_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 86fab6eb1d2ecde41801a830ec26004b
+    - name: 4-Enemy-Big Guy_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 781cd44e16a4d304fbc9d83937a289bd
+    - name: 4-Enemy-Big Guy_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: c41d2ca5c73b3bf41a3dfe7e597eb96d
+    - name: 4-Enemy-Big Guy_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 4fd06fb13248cf249bf41ca0be16fbf9
+    - name: 4-Enemy-Big Guy_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 5e4ab39b15ed29947ae8a1a2d47623c7
+    - name: 4-Enemy-Big Guy_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: c6ffe1cdad5438743b16faa52dfb436d
+    - name: 4-Enemy-Big Guy_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 6784532e23c593143b85f928cf21a3f1
+    - name: 4-Enemy-Big Guy_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: a667b0e07d823f24ea20cb947ec1eb52
+    - name: 4-Enemy-Big Guy_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: 085bb25575779c04eb9bd7c435f024d2
+    - name: 4-Enemy-Big Guy_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 64
+      spriteId: fe998bfcd61c6994cac91af6b08359b9
+    - name: 4-Enemy-Big Guy_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 73
+      spriteId: bd03ae6785b427c49a1eb3d66d46d5d6
+    - name: 4-Enemy-Big Guy_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: 42823bf1ffd48d946b8300bae0746e35
+    - name: 4-Enemy-Big Guy_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 68
+      spriteId: f716cb73096c47e4b8ea7619085cc498
+    - name: 4-Enemy-Big Guy_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: 49a8e6d9624239b49b3a61e6e81c366f
+    - name: 4-Enemy-Big Guy_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: fc813b563808044418f894e3ca951374
+    - name: 4-Enemy-Big Guy_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 127aaa2f8496df043952753df404f5d3
+    - name: 4-Enemy-Big Guy_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 72aefe0eead4aed488f6f45e16bc0620
+    - name: 4-Enemy-Big Guy_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 5ddcd36c73270ec478ffb7ee1e13be59
+    - name: 4-Enemy-Big Guy_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: d78a91fd5783d884e998fc613bad6afc
+    - name: 4-Enemy-Big Guy_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 5
+        y: 0
+        width: 53
+        height: 66
+      spriteId: 7e5d64fcb3d22dd4db6c3616f40853c4
+    - name: 4-Enemy-Big Guy_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 9a1ca3b6402917a4e96e9caabb7ad74d
+    - name: 4-Enemy-Big Guy_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 7
+        y: 0
+        width: 52
+        height: 64
+      spriteId: 33d5c613d765fe143b461fcfcbd76414
+    - name: 4-Enemy-Big Guy_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 69
+      spriteId: ae9a7f0cff921764db513c3c784b1600
+    - name: 4-Enemy-Big Guy_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: 6be258d9e8e0dd2409c654f95dce7b0c
+    - name: 4-Enemy-Big Guy_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 5
+        y: 5
+        width: 54
+        height: 69
+      spriteId: f0e29505cfa91d949970e4032507358f
+    - name: 4-Enemy-Big Guy_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 6abb9cf6facc1ff42b7a9c8de1f73b52
+    - name: 4-Enemy-Big Guy_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 04cbcf3f73dcc7b44bfa551af50e4c9f
+    - name: 4-Enemy-Big Guy_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 5
+        y: 6
+        width: 54
+        height: 68
+      spriteId: 1117ed08cbb7037449db4f19a9335a20
+    - name: 4-Enemy-Big Guy_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 109d7be79d2244c45b5dd04c70c80cbd
+    - name: 4-Enemy-Big Guy_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 5
+        y: 0
+        width: 54
+        height: 66
+      spriteId: e25be326a7c879e4cb2240b4fb73785c
+    - name: 4-Enemy-Big Guy_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 65
+      spriteId: 5cccba023bcfd00419b76b6221aa4c71
+    - name: 4-Enemy-Big Guy_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 6
+        y: 0
+        width: 52
+        height: 70
+      spriteId: 0392bd3765ddc5d45b6db8514fd6ad40
+    - name: 4-Enemy-Big Guy_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 4
+        y: 0
+        width: 56
+        height: 61
+      spriteId: 23da99f590d01844fbabeb5e44077d68
+    - name: 4-Enemy-Big Guy_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 6
+        y: 3
+        width: 68
+        height: 67
+      spriteId: 643156362bcd58f47a209e044376b25b
+    - name: 4-Enemy-Big Guy_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 6
+        y: 3
+        width: 68
+        height: 67
+      spriteId: 1648745e1e675894080b9489781bd612
+    - name: 4-Enemy-Big Guy_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 6
+        y: 3
+        width: 68
+        height: 67
+      spriteId: 731b4b6a042e79349b50c6a9f99f3022
+    - name: 4-Enemy-Big Guy_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 1
+        y: 2
+        width: 59
+        height: 50
+      spriteId: 1321cdc8db067414a8c87e48d789fe2e
+    - name: 4-Enemy-Big Guy_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 1
+        y: 2
+        width: 59
+        height: 50
+      spriteId: 0dea3065dd623b4459a1afaf1c207c99
+    - name: 4-Enemy-Big Guy_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 1
+        y: 2
+        width: 59
+        height: 50
+      spriteId: a1a421c3c112d104b9083614cb89f090
+    - name: 4-Enemy-Big Guy_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 0
+        y: 0
+        width: 62
+        height: 38
+      spriteId: d34165124616ad14782a82049b1510a1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 77, y: 74}
