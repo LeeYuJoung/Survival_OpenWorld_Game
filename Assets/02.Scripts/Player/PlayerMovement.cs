@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     // 상태 변수
     private bool isWalk = false;
     private bool isRun = false;
+    private bool isClimb = false;
     private bool isGround = true;
 
     void Start()
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
         Run();
+        Climb();
         StartCoroutine(Jump());
     }
 
@@ -91,6 +93,20 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.SetBool("Run", isRun);
     }
 
+    public void Climb()
+    {
+        if (Input.GetKey(KeyCode.UpArrow) && isClimb)
+        {
+            transform.Translate(Vector2.up * currentSpeed * Time.deltaTime);
+            playerAnimator.SetBool("Climb", isClimb);
+        }
+        else if(Input.GetKey(KeyCode.DownArrow) && isClimb)
+        {
+            transform.Translate(Vector2.down * currentSpeed * Time.deltaTime);
+            playerAnimator.SetBool("Climb", isClimb);
+        }
+    }
+
     IEnumerator Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && currentJumpCount < maxJumpCount)
@@ -119,9 +135,30 @@ public class PlayerMovement : MonoBehaviour
             isGround = true;
             isWalk = false;
             isRun = false;
+            isClimb = false;
 
             currentJumpCount = 0;
             currentSpeed = moveSpeed;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isClimb = true;
+            currentSpeed = climbSpeed;
+            playerRigidbody.gravityScale = 0.0f;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isClimb = false;
+            currentSpeed = moveSpeed;
+            playerRigidbody.gravityScale = 2.0f;
         }
     }
 }

@@ -358,7 +358,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0058066845, y: 0.029319167}
+  m_Offset: {x: -0.010879636, y: 0.029319167}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -369,7 +369,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.82101154, y: 0.5881703}
+  m_Size: {x: 0.64853287, y: 0.5881703}
   m_EdgeRadius: 0
 --- !u!114 &5387762711302010411
 MonoBehaviour:
@@ -400,7 +400,7 @@ MonoBehaviour:
   jumpDustGameObject: {fileID: 0}
   moveSpeed: 2
   runSpeed: 4
-  climbSpeed: 0
+  climbSpeed: 1
   currentSpeed: 0
   jumpForce: 7
   currentJumpCount: 0
