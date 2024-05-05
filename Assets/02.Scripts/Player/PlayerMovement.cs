@@ -97,13 +97,31 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow) && isClimb)
         {
+            isGround = false;
+            isWalk = false;
+            isRun = false;
+
+            currentSpeed = climbSpeed;
+            playerRigidbody.gravityScale = 0.0f;
+
+            dustGameObject.SetActive(false);
+
+            playerAnimator.SetBool("Climb", isClimb);
             transform.Translate(Vector2.up * currentSpeed * Time.deltaTime);
-            playerAnimator.SetBool("Climb", isClimb);
         }
-        else if(Input.GetKey(KeyCode.DownArrow) && isClimb)
+        else if (Input.GetKey(KeyCode.DownArrow) && isClimb)
         {
-            transform.Translate(Vector2.down * currentSpeed * Time.deltaTime);
+            isGround = false;
+            isWalk = false;
+            isRun = false;
+
+            currentSpeed = climbSpeed;
+            playerRigidbody.gravityScale = 0.0f;
+
+            dustGameObject.SetActive(false);
+
             playerAnimator.SetBool("Climb", isClimb);
+            transform.Translate(Vector2.down * currentSpeed * Time.deltaTime);
         }
     }
 
@@ -130,6 +148,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // 바닥과 충돌 처리
         if (collision.collider.CompareTag("Ground"))
         {
             isGround = true;
@@ -139,26 +158,34 @@ public class PlayerMovement : MonoBehaviour
 
             currentJumpCount = 0;
             currentSpeed = moveSpeed;
+            playerRigidbody.gravityScale = 2.0f;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // 사다리와 충돌 처리
         if (collision.CompareTag("Ladder"))
         {
+            Debug.Log("사다리 충돌...");
             isClimb = true;
-            currentSpeed = climbSpeed;
-            playerRigidbody.gravityScale = 0.0f;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        // 사라디와 떨어짐 
         if (collision.CompareTag("Ladder"))
         {
+            Debug.Log("사다리 충돌 끝...");
             isClimb = false;
+            isGround = true;
+            isWalk = false;
+            isRun = false;
+
             currentSpeed = moveSpeed;
             playerRigidbody.gravityScale = 2.0f;
+            playerAnimator.SetBool("Climb", isClimb);
         }
     }
 }
