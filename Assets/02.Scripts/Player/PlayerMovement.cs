@@ -21,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public int maxJumpCount;
 
     // 달리기 변수
-    private float currentTime;
     public float runningTime;
+    public float currentTime;
 
     // 상태 변수
     private bool isWalk = false;
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         playerRigidbody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
 
-        currentTime = 0.0f;
+        currentTime = runningTime;
         currentSpeed = moveSpeed;
     }
 
@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
         Run();
+        RunningTime();
         Climb();
         StartCoroutine(Jump());
     }
@@ -68,9 +69,43 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             isWalk = false;
+            isRun = false;
+            playerAnimator.SetBool("Run", isRun);
         }
 
         playerAnimator.SetBool("Walk", isWalk);
+    }
+
+    public void RunningTime()
+    {
+        if (isRun)
+        {
+            if (currentTime > 0)
+            {
+                currentTime -= Time.deltaTime;
+                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+            }
+            else
+            {
+                currentTime = 0;
+                currentSpeed = moveSpeed;
+                dustGameObject.SetActive(false);
+                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+            }
+        }
+        else
+        {
+            if (currentTime < runningTime)
+            {
+                currentTime += Time.deltaTime;
+                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+            }
+            else
+            {
+                currentTime = runningTime;
+                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+            }
+        }
     }
 
     public void Run()
@@ -78,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
         if (!isGround || !isWalk)
             return;
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && currentTime > 0)
         {
             isRun = true;
             currentSpeed = runSpeed;

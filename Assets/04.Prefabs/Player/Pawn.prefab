@@ -405,4 +405,5 @@ MonoBehaviour:
   jumpForce: 7
   currentJumpCount: 0
   maxJumpCount: 2
-  runningTime: 0
+  runningTime: 5
+  currentTime: 0

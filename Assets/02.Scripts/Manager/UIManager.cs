@@ -28,5 +28,8 @@ public class UIManager : MonoBehaviour
         
     }
 
-
+    public void RunningBarUpdate(float _currentTime, float _runningTime)
+    {
+        runningBar.value = (_currentTime / _runningTime) * 100.0f;
+    }
 }
