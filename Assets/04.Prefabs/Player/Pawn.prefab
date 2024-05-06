@@ -398,6 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dustGameObject: {fileID: 0}
   jumpDustGameObject: {fileID: 0}
+  polygonCollider: {fileID: 0}
   moveSpeed: 2
   runSpeed: 4
   climbSpeed: 1
@@ -405,5 +406,5 @@ MonoBehaviour:
   jumpForce: 7
   currentJumpCount: 0
   maxJumpCount: 2
-  runningTime: 5
+  staminaTime: 10
   currentTime: 0

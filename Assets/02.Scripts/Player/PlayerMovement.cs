@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject jumpDustGameObject;
     private Rigidbody2D playerRigidbody;
     private Animator playerAnimator;
+    public Collider2D polygonCollider;
 
     // 스피드 변수
     public float moveSpeed;
@@ -20,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public int currentJumpCount;
     public int maxJumpCount;
 
-    // 달리기 변수
-    public float runningTime;
+    // 스태미나 변수
+    public float staminaTime;
     public float currentTime;
 
     // 상태 변수
@@ -36,43 +37,45 @@ public class PlayerMovement : MonoBehaviour
         jumpDustGameObject = transform.GetChild(1).gameObject;  
         playerRigidbody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        polygonCollider = GameObject.Find("Grid").GetComponent<Collider2D>();
 
-        currentTime = runningTime;
+        currentTime = staminaTime;
         currentSpeed = moveSpeed;
     }
 
     void Update()
     {
+        if (!isRun)
+            dustGameObject.SetActive(false);
+
         Move();
         Run();
-        RunningTime();
         Climb();
+        RunningTime();
         StartCoroutine(Jump());
     }
 
     public void Move()
     {
-        if (Input.GetAxis("Horizontal") > 0)
+        if (Input.GetAxis("Horizontal") > 0 && polygonCollider.bounds.extents.x - 0.5f > transform.position.x)
         {
             isWalk = true;
             transform.localScale = new Vector3(1, 1, 1);
             transform.Translate(Vector2.right * currentSpeed * Time.deltaTime);
-            //playerRigidbody.velocity += Vector2.right * currentSpeed * Time.deltaTime;
         }
-        else if (Input.GetAxis("Horizontal") < 0)
+        else if (Input.GetAxis("Horizontal") < 0 && -polygonCollider.bounds.extents.x + 0.5f < transform.position.x)
         {
             isWalk = true;
             transform.localScale = new Vector3(-1, 1, 1);
             transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
-            //playerRigidbody.velocity += Vector2.left * currentSpeed * Time.deltaTime;
         }
         else
         {
             isWalk = false;
             isRun = false;
-            playerAnimator.SetBool("Run", isRun);
         }
 
+        playerAnimator.SetBool("Run", isRun);
         playerAnimator.SetBool("Walk", isWalk);
     }
 
@@ -83,27 +86,27 @@ public class PlayerMovement : MonoBehaviour
             if (currentTime > 0)
             {
                 currentTime -= Time.deltaTime;
-                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+                UIManager.Instance().RunningBarUpdate(currentTime, staminaTime);
             }
             else
             {
                 currentTime = 0;
                 currentSpeed = moveSpeed;
                 dustGameObject.SetActive(false);
-                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+                UIManager.Instance().RunningBarUpdate(currentTime, staminaTime);
             }
         }
         else
         {
-            if (currentTime < runningTime)
+            if (currentTime < staminaTime)
             {
                 currentTime += Time.deltaTime;
-                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+                UIManager.Instance().RunningBarUpdate(currentTime, staminaTime);
             }
             else
             {
-                currentTime = runningTime;
-                UIManager.Instance().RunningBarUpdate(currentTime, runningTime);
+                currentTime = staminaTime;
+                UIManager.Instance().RunningBarUpdate(currentTime, staminaTime);
             }
         }
     }
@@ -139,8 +142,6 @@ public class PlayerMovement : MonoBehaviour
             currentSpeed = climbSpeed;
             playerRigidbody.gravityScale = 0.0f;
 
-            dustGameObject.SetActive(false);
-
             playerAnimator.SetBool("Climb", isClimb);
             transform.Translate(Vector2.up * currentSpeed * Time.deltaTime);
         }
@@ -152,8 +153,6 @@ public class PlayerMovement : MonoBehaviour
 
             currentSpeed = climbSpeed;
             playerRigidbody.gravityScale = 0.0f;
-
-            dustGameObject.SetActive(false);
 
             playerAnimator.SetBool("Climb", isClimb);
             transform.Translate(Vector2.down * currentSpeed * Time.deltaTime);
