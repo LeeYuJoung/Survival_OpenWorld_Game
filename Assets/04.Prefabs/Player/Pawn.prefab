@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 5387762711302010415}
   - component: {fileID: 5387762711302010409}
   - component: {fileID: 5387762711302010408}
+  - component: {fileID: 1688819998533907353}
   - component: {fileID: 5387762711302010411}
   - component: {fileID: 5387762711302010410}
   m_Layer: 0
@@ -371,6 +372,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64853287, y: 0.5881703}
   m_EdgeRadius: 0
+--- !u!114 &1688819998533907353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387762711302010414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2279bee7e81ce24cab9289ad5cb6a68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusSliders:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  hp: 100
+  mp: 100
+  sp: 100
+  spInCreaseSpeed: 0
+  spChargeTime: 0
+  hungry: 100
+  hungryDecreaseTime: 30
+  thirsty: 100
+  thirstyDecreaseTime: 30
+  satisfy: 100
 --- !u!114 &5387762711302010411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23092f4e6ba5d034e8b74456029a0d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
 --- !u!114 &5387762711302010410
 MonoBehaviour:
   m_ObjectHideFlags: 0
