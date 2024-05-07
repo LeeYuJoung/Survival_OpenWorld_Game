@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23092f4e6ba5d034e8b74456029a0d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  workDelayTime: 5
+  workDelayTime: 2.5
   isAx: 0
   isHammer: 0
   isSword: 0
