@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5387762710751955663}
   - component: {fileID: 5387762710751955661}
   - component: {fileID: 5387762710751955660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: JumpDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 5387762711115855777}
   - component: {fileID: 5387762711115855791}
   - component: {fileID: 5387762711115855790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 1688819998533907353}
   - component: {fileID: 5387762711302010411}
   - component: {fileID: 5387762711302010410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pawn
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -394,12 +394,12 @@ MonoBehaviour:
   hp: 100
   mp: 100
   sp: 100
-  spInCreaseSpeed: 0
-  spChargeTime: 0
+  spInCreaseSpeed: 0.1
+  isSPUse: 0
   hungry: 100
-  hungryDecreaseTime: 30
+  hungryDecreaseTime: 15
   thirsty: 100
-  thirstyDecreaseTime: 30
+  thirstyDecreaseTime: 15
   satisfy: 100
 --- !u!114 &5387762711302010411
 MonoBehaviour:
@@ -413,6 +413,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23092f4e6ba5d034e8b74456029a0d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  workDelayTime: 5
+  isAx: 0
+  isHammer: 0
+  isSword: 0
+  isBow: 0
 --- !u!114 &5387762711302010410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,9 +430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0004209a8063a284aa35015d176d7c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dustGameObject: {fileID: 0}
-  jumpDustGameObject: {fileID: 0}
-  polygonCollider: {fileID: 0}
   moveSpeed: 2
   runSpeed: 4
   climbSpeed: 1
@@ -435,5 +437,8 @@ MonoBehaviour:
   jumpForce: 7
   currentJumpCount: 0
   maxJumpCount: 2
-  staminaTime: 10
-  currentTime: 0
+  isWalk: 0
+  isRun: 0
+  isClimb: 0
+  isGround: 1
+  playerDirection: {x: 0, y: 0}

@@ -27,12 +27,7 @@ public class StatusController : MonoBehaviour
 
     [SerializeField]
     private float spInCreaseSpeed;    // 스태미나 증가량 
-
-    [SerializeField]
-    private float spChargeTime;       // 스태미나 충전 딜레이 시간 
-    private float currentSPChargeTime;
-
-    private bool isSPUse = false;
+    public bool isSPUse = false;
 
     // 배고픔 변수
     [SerializeField]
@@ -57,6 +52,9 @@ public class StatusController : MonoBehaviour
     private float satisfy;
     private float currentSatisfy;
 
+    // 사망 변수
+    private bool isDead = false;
+
     void Start()
     {
         statusSliders[HP] = GameObject.Find("Sliders").transform.GetChild(0).GetComponent<Slider>();
@@ -78,7 +76,6 @@ public class StatusController : MonoBehaviour
     {
         Hungry();
         Thirsty();
-        SPChargeTime();
         SPRecover();
         GaugeUpdate();
     }
@@ -97,19 +94,20 @@ public class StatusController : MonoBehaviour
     {
         if(currentHungry > 0)
         {
-            if(currentHungryDecreaseTime <= hungryDecreaseTime)
+            if(currentHungryDecreaseTime > 0)
             {
-                currentHungryDecreaseTime++;
+                currentHungryDecreaseTime -= Time.deltaTime;
             }
             else
             {
                 currentHungry--;
-                currentHungryDecreaseTime = 0;
+                currentHungryDecreaseTime = hungryDecreaseTime;
             }
         }
         else
         {
             Debug.Log("배고파서 사망.....");
+            isDead = true;
         }
     }
 
@@ -117,19 +115,20 @@ public class StatusController : MonoBehaviour
     {
         if(currentThirsty > 0)
         {
-            if(currentThirstyDecreaseTime <= thirstyDecreaseTime)
+            if(currentThirstyDecreaseTime > 0)
             {
-                currentThirstyDecreaseTime++;
+                currentThirstyDecreaseTime -= Time.deltaTime;
             }
             else
             {
                 currentThirsty--;
-                currentThirstyDecreaseTime = 0;
+                currentThirstyDecreaseTime = thirstyDecreaseTime;
             }
         }
         else
         {
             Debug.Log("목말라서 사망....");
+            isDead= true;
         }
     }
 
@@ -154,6 +153,7 @@ public class StatusController : MonoBehaviour
         if(currentHP <= 0)
         {
             Debug.Log("사망....");
+            isDead = true;
         }
     }
 
@@ -200,6 +200,7 @@ public class StatusController : MonoBehaviour
         if(currentHungry - _count < 0)
         {
             currentHungry = 0;
+            isDead = true;
         }
         else
         {
@@ -221,11 +222,12 @@ public class StatusController : MonoBehaviour
     }
 
     // 목마름 하락
-    public void DecreaseThirsty(int _count)
+    public void DecreaseThirsty(float _count)
     {
         if(currentThirsty - _count < 0)
         {
             currentThirsty = 0;
+            isDead = true;
         }
         else
         {
@@ -233,11 +235,10 @@ public class StatusController : MonoBehaviour
         }
     }
 
-    // 스태미나 하락
-    public void DecreaseSP(int _count)
+    // 스태미나 감소
+    public void DecreaseSP(float _count)
     {
         isSPUse = true;
-        currentSPChargeTime = 0;
 
         if(currentSP - _count > 0)
         {
@@ -246,22 +247,6 @@ public class StatusController : MonoBehaviour
         else
         {
             currentSP = 0;
-        }
-    }
-
-    // 스태미나 회복해도 될지 시간 확인 
-    public void SPChargeTime()
-    {
-        if (isSPUse)
-        {
-            if (currentSPChargeTime < spChargeTime)
-            {
-                currentSPChargeTime++;
-            }
-            else
-            {
-                isSPUse = false;
-            }
         }
     }
 
