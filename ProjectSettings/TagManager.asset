@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Ladder
   - Rock
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - UI
   - Player
   - Grid
-  - 
+  - Item
   - 
   - 
   - 

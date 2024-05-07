@@ -50,8 +50,7 @@ public class EnviromentController : MonoBehaviour
     {
         if(currentType == EnviromentType.Tree)
         {
-            GameObject _item = Instantiate(treeItems[Random.Range(0, treeItems.Length)]);
-            _item.transform.position = new Vector3(Random.Range(-0.1f, 0.1f), 0, 0);
+
         }
     }
 

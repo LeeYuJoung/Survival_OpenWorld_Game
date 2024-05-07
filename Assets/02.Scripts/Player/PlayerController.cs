@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
         Bow();  
     }
 
+    // µµ³¢Áú
     public void Ax()
     {
         if (isHammer)
@@ -92,12 +93,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // ¸ÁÄ¡Áú
     public void Hammer()
     {
         if (isAx)
             return;
 
-        if(Input.GetKey(KeyCode.Keypad2) || Input.GetKey(KeyCode.Alpha2))
+        if(Input.GetKey(KeyCode.Keypad2) || Input.GetKey(KeyCode.Alpha2) && statusController.GetCurrentSP() > 0)
         {
             isHammer = true;
             playerMovement.isWalk = false;

@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 1688819998533907353}
   - component: {fileID: 5387762711302010411}
   - component: {fileID: 5387762711302010410}
+  - component: {fileID: 471737125155166792}
   m_Layer: 6
   m_Name: Pawn
   m_TagString: Player
@@ -292,7 +293,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1023387377, guid: 3f2ac9bf2748a1f46b881902ca302a5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -442,3 +443,15 @@ MonoBehaviour:
   isClimb: 0
   isGround: 1
   playerDirection: {x: 0, y: 0}
+--- !u!114 &471737125155166792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387762711302010414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc37d137c41050547a4acb96277c6f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
