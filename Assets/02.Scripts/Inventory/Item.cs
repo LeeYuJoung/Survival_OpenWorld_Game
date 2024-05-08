@@ -7,6 +7,7 @@ public class Item : ScriptableObject
 {
     public enum ItemType
     {
+        Equipment,
         Used,
         Ingredient,
         ETC
