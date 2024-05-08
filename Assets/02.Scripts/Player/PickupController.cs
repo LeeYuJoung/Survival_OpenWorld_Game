@@ -5,6 +5,7 @@ using UnityEngine;
 public class PickupController : MonoBehaviour
 {
     private PlayerMovement PlayerMovement;
+    private Inventory inventory;
 
     private bool isPickupActivated = false;
     private RaycastHit2D hit;
@@ -12,6 +13,7 @@ public class PickupController : MonoBehaviour
     private void Start()
     {
         PlayerMovement = GetComponent<PlayerMovement>();
+        inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
     }
 
     void Update()
@@ -66,6 +68,7 @@ public class PickupController : MonoBehaviour
             {
                 // 인벤토리에 저장
                 Debug.Log(hit.transform.GetComponent<ItemObject>().item.itemName + "획득했습니다.....");
+                inventory.AcquireItem(hit.transform.GetComponent<ItemObject>().item);
                 Destroy(hit.transform.gameObject);
                 ItemInfoDisappear();
             }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Slot : MonoBehaviour
+public class Slot : MonoBehaviour, IPointerClickHandler
 {
     // 획득한 아이템
     public Item item;
@@ -18,9 +18,9 @@ public class Slot : MonoBehaviour
     // 아이템 이미지 투명도 조절
     public void SetColor(float _alpha)
     {
-        //Color color = itemImage.color;
-        //color.a = _alpha;
-        //itemImage.color = color;
+        Color color = itemImage.color;
+        color.a = _alpha;
+        itemImage.color = color;
     }
 
     // 인벤토리에 새로운 아이템 슬롯 추가
