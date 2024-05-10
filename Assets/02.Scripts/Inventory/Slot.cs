@@ -16,6 +16,13 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     [SerializeField]
     private Text text_Count;
 
+    private Rect baseRect;
+
+    private void Start()
+    {
+        baseRect = transform.parent.GetComponent<RectTransform>().rect;
+    }
+
     // 아이템 이미지 투명도 조절
     public void SetColor(float _alpha)
     {
@@ -116,6 +123,14 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     // 마우스 드래그가 끝났을 때 발생하는 이벤트
     public void OnEndDrag(PointerEventData eventData)
     {
+        if(DragSlot.instance.transform.localPosition.x < baseRect.xMin 
+            || DragSlot.instance.transform.localPosition.x > baseRect.xMax
+            || DragSlot.instance.transform.localPosition.y < baseRect.yMin
+            || DragSlot.instance.transform.localPosition.y > baseRect.yMax)
+        {
+
+        }
+
         DragSlot.instance.SetColor(0);
         DragSlot.instance.dragSlot = null;
     }
