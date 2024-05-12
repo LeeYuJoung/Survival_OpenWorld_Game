@@ -17,16 +17,17 @@ public class DragSlot : MonoBehaviour
         itemImage = GetComponent<Image>();
     }
 
-    public void DragSetImage(Image _itemImage)
-    {
-        itemImage.sprite = _itemImage.sprite;
-        SetColor(1);
-    }
-
+    // 이미지 투명도 조절
     public void SetColor(float _alpha)
     {
         Color color = itemImage.color;
         color.a = _alpha;
         itemImage.color = color;
+    }
+
+    public void DragSetImage(Image _itemImage)
+    {
+        itemImage.sprite = _itemImage.sprite;
+        SetColor(1);
     }
 }

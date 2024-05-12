@@ -1743,6 +1743,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1036852987}
   text_Count: {fileID: 1654418103}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &229793757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,6 +1843,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1192346513}
   text_Count: {fileID: 1019366528}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &250100008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,6 +2147,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 864767080}
   text_Count: {fileID: 473475221}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &268237821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,6 +2498,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 71366892}
   text_Count: {fileID: 1127392686}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &286705138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2882,6 +2906,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1944349304}
   text_Count: {fileID: 832273740}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &319583699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3076,9 +3106,9 @@ RectTransform:
   m_Father: {fileID: 372586382}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -550, y: -100}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 150}
   m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343993529
@@ -3238,6 +3268,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1605361629}
   text_Count: {fileID: 1489434058}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &356002652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3312,8 +3348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -500, y: -250}
+  m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372586383
 MonoBehaviour:
@@ -3731,6 +3767,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 921990885}
   text_Count: {fileID: 1500764362}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &394540772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11428,6 +11470,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 200665752}
   text_Count: {fileID: 1256876128}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &439590006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12501,6 +12549,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1103206439}
   text_Count: {fileID: 657128109}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &616614025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13089,6 +13143,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 532199064}
   text_Count: {fileID: 1318549048}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &656087654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13375,6 +13435,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 346876990}
   text_Count: {fileID: 2097284194}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &683658219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13559,6 +13625,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1676122987}
   text_Count: {fileID: 262241981}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &707258207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13653,6 +13725,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 2125485425}
   text_Count: {fileID: 2138589697}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &736077465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13831,6 +13909,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1704907389}
   text_Count: {fileID: 1259458243}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &752515327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13925,6 +14009,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 2113643520}
   text_Count: {fileID: 392226161}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &756863472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14203,6 +14293,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1129721029}
   text_Count: {fileID: 781972918}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &812184988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14393,6 +14489,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1832977577}
   text_Count: {fileID: 1771168644}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &841148088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14858,6 +14960,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 647424045}
   text_Count: {fileID: 1672764758}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &898169739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15482,6 +15590,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1904066781}
   text_Count: {fileID: 32675304}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1009811044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15984,6 +16098,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 915376727}
   text_Count: {fileID: 131074014}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1081183954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16508,6 +16628,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1991852765}
   text_Count: {fileID: 1820371190}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1135128920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16602,6 +16728,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 279032268}
   text_Count: {fileID: 1408724709}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1140339741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16869,6 +17001,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1658573321}
   text_Count: {fileID: 180661019}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1193679723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16999,6 +17137,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 559093652}
   text_Count: {fileID: 2021018681}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1213372325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17357,6 +17501,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1954709829}
   text_Count: {fileID: 593243171}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1257886248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17604,6 +17754,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1824162872}
   text_Count: {fileID: 1430292425}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1277536926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18614,6 +18770,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1782872498}
   text_Count: {fileID: 538547836}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1402084592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18880,6 +19042,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 639238723}
   text_Count: {fileID: 598891418}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1414110413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19050,6 +19218,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1906591179}
   text_Count: {fileID: 1754619913}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1428267060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19572,6 +19746,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 14915429}
   text_Count: {fileID: 308817148}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1499217493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21181,6 +21361,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 395960292}
   text_Count: {fileID: 1717475578}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1708906985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21651,6 +21837,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 259343803}
   text_Count: {fileID: 646565835}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1748401763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21872,6 +22064,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 861470037}
   text_Count: {fileID: 1183522156}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1770975659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22446,6 +22644,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1301632555}
   text_Count: {fileID: 1573819246}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1834088505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22540,6 +22744,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1944639874}
   text_Count: {fileID: 452994175}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1859787225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22942,6 +23152,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 54404085}
   text_Count: {fileID: 1579901123}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1909736390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23117,6 +23333,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1901739192}
   text_Count: {fileID: 664001045}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1918766562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23306,6 +23528,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 1873513350}
   text_Count: {fileID: 1386119384}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!1 &1936574269
 GameObject:
   m_ObjectHideFlags: 0
@@ -23798,6 +24026,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 159836272}
   text_Count: {fileID: 881619131}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &1977732895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24726,6 +24960,12 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 138875157}
   text_Count: {fileID: 381232891}
+  baseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &2080495408
 MonoBehaviour:
   m_ObjectHideFlags: 0

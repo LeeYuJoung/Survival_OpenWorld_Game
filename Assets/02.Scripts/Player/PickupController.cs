@@ -18,7 +18,6 @@ public class PickupController : MonoBehaviour
 
     void Update()
     {
-        CheckItem();
         TryAction();
     }
 
@@ -26,20 +25,28 @@ public class PickupController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            CheckItem();
             PickUp();
         }
     }
 
-    public void CheckItem()
+    public void PickUp()
     {
-        hit = Physics2D.Raycast(transform.position, PlayerMovement.playerDirection, 1.0f, 1 << LayerMask.NameToLayer("Item"));
+        hit = Physics2D.Raycast(transform.position, PlayerMovement.playerDirection, 0.5f, 1 << LayerMask.NameToLayer("Item"));
 
         if (hit)
         {
             if (hit.transform.CompareTag("Item"))
             {
                 ItemInfoAppear();
+
+                if (hit.transform != null)
+                {
+                    // 인벤토리에 저장
+                    Debug.Log(hit.transform.GetComponent<ItemObject>().item.itemName + "획득했습니다.....");
+                    inventory.AcquireItem(hit.transform.GetComponent<ItemObject>().item);
+                    Destroy(hit.transform.gameObject);
+                    ItemInfoDisappear();
+                }
             }
         }
         else
@@ -58,20 +65,5 @@ public class PickupController : MonoBehaviour
     public void ItemInfoDisappear()
     {
         isPickupActivated = false;
-    }
-
-    public void PickUp()
-    {
-        if (isPickupActivated)
-        {
-            if(hit.transform != null)
-            {
-                // 인벤토리에 저장
-                Debug.Log(hit.transform.GetComponent<ItemObject>().item.itemName + "획득했습니다.....");
-                inventory.AcquireItem(hit.transform.GetComponent<ItemObject>().item);
-                Destroy(hit.transform.gameObject);
-                ItemInfoDisappear();
-            }
-        }
     }
 }

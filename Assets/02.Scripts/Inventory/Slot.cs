@@ -16,11 +16,11 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     [SerializeField]
     private Text text_Count;
 
-    private Rect baseRect;
+    public Rect baseRect;
 
     private void Start()
     {
-        baseRect = transform.parent.GetComponent<RectTransform>().rect;
+        baseRect = transform.parent.parent.GetComponent<RectTransform>().rect;
     }
 
     // 아이템 이미지 투명도 조절
@@ -128,7 +128,12 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
             || DragSlot.instance.transform.localPosition.y < baseRect.yMin
             || DragSlot.instance.transform.localPosition.y > baseRect.yMax)
         {
+            GameObject _player = GameObject.Find("Pawn");
+            Vector3 _pos = _player.transform.position;
+            _pos.y -= 0.2f;
 
+            Instantiate(DragSlot.instance.dragSlot.item.itemPrefab, _pos, Quaternion.identity);
+            DragSlot.instance.dragSlot.ClearSlot();
         }
 
         DragSlot.instance.SetColor(0);
@@ -141,13 +146,13 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     {
         if(DragSlot.instance.dragSlot != null)
         {
-            Debug.Log("Drop Item");
             ChangeSlot();
         }
     }
     
     public void ChangeSlot()
     {
+        // 현재 슬롯이 가진 정보 저장
         Item _tempItem = item;
         int _tempItemCount = itemCount;
 
