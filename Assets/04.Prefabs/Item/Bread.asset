@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a3cef65b3bbe7f4eae866791cc864d4, type: 3}
-  m_Name: Wood
+  m_Name: Bread
   m_EditorClassIdentifier: 
-  itemName: Wood
-  itemType: 2
-  itemImage: {fileID: 823558638, guid: 3f8d663183e779c40b8fd5dc8e439c5b, type: 3}
-  interactionImage: {fileID: 270518148, guid: 3aa96c8d102515148b5c65528aa2f04d, type: 3}
-  itemPrefab: {fileID: 3942578642730067190, guid: 464d7b315b626434d981e2e31c957369, type: 3}
+  itemName: Bread
+  itemType: 1
+  itemImage: {fileID: -577060600, guid: 3f8d663183e779c40b8fd5dc8e439c5b, type: 3}
+  interactionImage: {fileID: -869969403, guid: 3aa96c8d102515148b5c65528aa2f04d, type: 3}
+  itemPrefab: {fileID: 1567897095998749649, guid: 3dd66dc76d8868c4484be730e8f50a1a, type: 3}
