@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Bread
   m_EditorClassIdentifier: 
   itemName: Bread
+  itemDesc: "+5 \uCCB4\uB825 \uD68C\uBCF5"
   itemType: 1
   itemImage: {fileID: -577060600, guid: 3f8d663183e779c40b8fd5dc8e439c5b, type: 3}
   interactionImage: {fileID: -869969403, guid: 3aa96c8d102515148b5c65528aa2f04d, type: 3}

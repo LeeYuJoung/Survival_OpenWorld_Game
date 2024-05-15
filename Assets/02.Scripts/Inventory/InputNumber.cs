@@ -15,7 +15,7 @@ public class InputNumber : MonoBehaviour
     private InputField if_text;
 
     [SerializeField]
-    private GameObject go_Base;
+    private GameObject _base;
 
     [SerializeField]
     private PickupController player;
@@ -37,7 +37,7 @@ public class InputNumber : MonoBehaviour
 
     public void Call()
     {
-        go_Base.SetActive(true);
+        _base.SetActive(true);
         activated = true;
         if_text.text = "";
         text_Preview.text = DragSlot.instance.dragSlot.itemCount.ToString();
@@ -47,7 +47,7 @@ public class InputNumber : MonoBehaviour
     {
         activated = false;
         DragSlot.instance.SetColor(0);
-        go_Base.SetActive(false);
+        _base.SetActive(false);
         DragSlot.instance.dragSlot = null;
     }
 

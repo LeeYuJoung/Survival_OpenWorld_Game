@@ -17,10 +17,12 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     private Text text_Count;
 
     public Rect baseRect;
+    private ItemEffectDatabase itemEffectDatabase;
 
     private void Start()
     {
         baseRect = transform.parent.parent.GetComponent<RectTransform>().rect;
+        itemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
     }
 
     // 아이템 이미지 투명도 조절
@@ -83,14 +85,11 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         {
             if(item != null)
             {
-                if(item.itemType == Item.ItemType.Equipment)
+                itemEffectDatabase.UseItem(item);
+
+                // 소모성 아이템 사용
+                if(item.itemType == Item.ItemType.Used)
                 {
-                    // 무기 장착
-                }
-                else
-                {
-                    // 아이템 소비
-                    Debug.Log(item.itemName + " 을 사용했습니다....");
                     SetSlotCount(-1);
                 }
             }

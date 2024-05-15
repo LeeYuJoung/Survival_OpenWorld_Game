@@ -22,7 +22,12 @@ public class ItemEffectDatabase : MonoBehaviour
 
     [SerializeField]
     private StatusController statusController;
-    
+
+    private void Start()
+    {
+        statusController = GameObject.FindGameObjectWithTag("Player").GetComponent<StatusController>();
+    }
+
     public void UseItem(Item _item)
     {
         if(_item.itemType == Item.ItemType.Equipment)

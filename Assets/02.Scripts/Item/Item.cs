@@ -14,6 +14,8 @@ public class Item : ScriptableObject
     }
 
     public string itemName;
+    [TextArea]  // 여러 줄 작성 가능
+    public string itemDesc;
     public ItemType itemType;
     public Sprite itemImage;
     public Sprite interactionImage;

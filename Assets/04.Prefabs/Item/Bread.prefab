@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1567897095998749652}
   - component: {fileID: 1567897095998749651}
   - component: {fileID: 1567897095998749650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bread
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
