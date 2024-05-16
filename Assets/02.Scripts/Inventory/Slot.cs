@@ -4,8 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
+public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
+    public RectTransform baseRect;
+    public RectTransform quickSlotBaseRect;
+    private ItemEffectDatabase itemEffectDatabase;
+
     // 획득한 아이템
     public Item item;
     // 획득한 아이템 개수
@@ -16,13 +20,19 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     [SerializeField]
     private Text text_Count;
 
-    public Rect baseRect;
-    private ItemEffectDatabase itemEffectDatabase;
+    [SerializeField]
+    private bool isQuickSlot = false;
+    [SerializeField]
+    private int quickSlotNumber;
 
     private void Start()
     {
-        baseRect = transform.parent.parent.GetComponent<RectTransform>().rect;
         itemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
+    }
+
+    public int GetQuickSlotNumber()
+    {
+        return quickSlotNumber;
     }
 
     // 아이템 이미지 투명도 조절
@@ -76,6 +86,21 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         text_Count.gameObject.SetActive(false);
     }
 
+    // 마우스 커서가 슬롯에 들어갈 때 발동
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (item != null)
+        {
+            itemEffectDatabase.ShowToolTip(item, transform.position);
+        }
+    }
+
+    // 마우스 커서가 슬롯에서 나올 때 발동
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        itemEffectDatabase.HideToolTip();
+    }
+
     // IPointerClickHandler 인터페이스 상속 시 마우스 클릭 이벤트 받기 가능
     // PointerEventData는 마우스 혹은 터치 입력 이벤트에 관한 정보 저장 (이벤트가 들어온 버튼, 클릭 수, 마우스 위치 등)
     // 오브젝트에 마우스 클릭 이벤트 발생 시 호출
@@ -122,11 +147,18 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     // 마우스 드래그가 끝났을 때 발생하는 이벤트
     public void OnEndDrag(PointerEventData eventData)
     {
-        if(DragSlot.instance.transform.localPosition.x < baseRect.xMin 
-            || DragSlot.instance.transform.localPosition.x > baseRect.xMax
-            || DragSlot.instance.transform.localPosition.y < baseRect.yMin
-            || DragSlot.instance.transform.localPosition.y > baseRect.yMax)
+        // 인벤토리와 퀵슬롯 영역을 벗어난 곳에서 드래그를 끝냈다면
+        if(!((DragSlot.instance.transform.localPosition.x > baseRect.rect.xMin 
+            && DragSlot.instance.transform.localPosition.x < baseRect.rect.xMax
+            && DragSlot.instance.transform.localPosition.y > baseRect.rect.yMin
+            && DragSlot.instance.transform.localPosition.y < baseRect.rect.yMax)
+            ||
+            (DragSlot.instance.transform.localPosition.x > quickSlotBaseRect.rect.xMin
+            && DragSlot.instance.transform.localPosition.x < quickSlotBaseRect.rect.xMax
+            && DragSlot.instance.transform.localPosition.y + baseRect.transform.localPosition.y > quickSlotBaseRect.rect.yMin + quickSlotBaseRect.transform.localPosition.y
+            && DragSlot.instance.transform.localPosition.y + baseRect.transform.localPosition.y < quickSlotBaseRect.rect.yMax + quickSlotBaseRect.transform.localPosition.y)))
         {
+            Debug.Log("Drop");
             GameObject _player = GameObject.Find("Pawn");
             Vector3 _pos = _player.transform.position;
             _pos.y -= 0.2f;
@@ -134,9 +166,11 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
             Instantiate(DragSlot.instance.dragSlot.item.itemPrefab, _pos, Quaternion.identity);
             DragSlot.instance.dragSlot.ClearSlot();
         }
-
-        DragSlot.instance.SetColor(0);
-        DragSlot.instance.dragSlot = null;
+        else
+        {
+            DragSlot.instance.SetColor(0);
+            DragSlot.instance.dragSlot = null;
+        }
     }
 
     // 내 자신한테 드롭 된 무언가가 있을 때 호출
@@ -146,6 +180,18 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         if(DragSlot.instance.dragSlot != null)
         {
             ChangeSlot();
+
+            if (isQuickSlot)
+            {
+                itemEffectDatabase.IsActivatedquickSlot(quickSlotNumber);
+            }
+            else
+            {
+                if (DragSlot.instance.dragSlot.isQuickSlot)
+                {
+                    itemEffectDatabase.IsActivatedquickSlot(DragSlot.instance.dragSlot.quickSlotNumber);
+                }
+            }
         }
     }
     

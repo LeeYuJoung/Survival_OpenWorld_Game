@@ -18,8 +18,7 @@ public class SlotToolTip : MonoBehaviour
     public void ShowToolTip(Item _item, Vector3 _pos)
     {
         _base.SetActive(true);
-        _pos += new Vector3(_base.GetComponent<RectTransform>().rect.width * 0.5f,
-            _base.GetComponent<RectTransform>().rect.height * 0.5f, 0.0f);
+        _pos -= new Vector3(_base.GetComponent<RectTransform>().rect.width * 0.5f, _base.GetComponent<RectTransform>().rect.height * 0.5f, 0.0f);
 
         _base.transform.position = _pos;
 

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    // 인벤토리 활성화 여부
-    public static bool isInventoryActivated = false;
-
     [SerializeField]
     private GameObject slotParent;
     private Slot[] slots;
+
+    // 인벤토리 활성화 여부
+    public static bool isInventoryActivated = false;
+    public bool isFull = false;
 
     void Start()
     {
@@ -68,5 +69,15 @@ public class Inventory : MonoBehaviour
                 return;
             }
         }
+    }
+
+    public bool GetIsFull()
+    {
+        return isFull;
+    }
+
+    public void SetIsFull(bool _flag)
+    {
+        isFull = _flag;
     }
 }

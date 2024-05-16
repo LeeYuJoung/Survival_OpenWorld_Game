@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Stone
   m_EditorClassIdentifier: 
   itemName: Stone
+  itemDesc: "\uB3CC\uBA69\uC774"
   itemType: 2
   itemImage: {fileID: -465242481, guid: 3f8d663183e779c40b8fd5dc8e439c5b, type: 3}
   interactionImage: {fileID: 604591441, guid: 3aa96c8d102515148b5c65528aa2f04d, type: 3}

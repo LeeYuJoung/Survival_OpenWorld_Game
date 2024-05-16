@@ -22,6 +22,10 @@ public class ItemEffectDatabase : MonoBehaviour
 
     [SerializeField]
     private StatusController statusController;
+    [SerializeField]
+    private SlotToolTip SlotToolTip;
+    [SerializeField]
+    private QuickSlotController quickSlotController;
 
     private void Start()
     {
@@ -73,5 +77,20 @@ public class ItemEffectDatabase : MonoBehaviour
             }
             Debug.Log("!!! ItemEffectDatabase에 일치하는 itemName이 없습니다 !!!");
         }
+    }
+
+    public void ShowToolTip(Item _item, Vector3 _pos)
+    {
+        SlotToolTip.ShowToolTip(_item, _pos);
+    }
+
+    public void HideToolTip()
+    {
+        SlotToolTip.HideToolTip();
+    }
+
+    public void IsActivatedquickSlot(int _num)
+    {
+        quickSlotController.IsActivatedQuickSlot(_num);
     }
 }
