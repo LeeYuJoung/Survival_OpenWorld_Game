@@ -55,7 +55,7 @@ public class ItemEffectDatabase : MonoBehaviour
                                 statusController.IncreaseMP(itemEffects[i].num[j]);
                                 break;
                             case SP:
-                                
+                                statusController.IncreaseSP(itemEffects[i].num[j]);
                                 break;
                             case HUNGRY:
                                 statusController.IncreaseHungry(itemEffects[i].num[j]);
@@ -87,10 +87,5 @@ public class ItemEffectDatabase : MonoBehaviour
     public void HideToolTip()
     {
         SlotToolTip.HideToolTip();
-    }
-
-    public void IsActivatedquickSlot(int _num)
-    {
-        quickSlotController.IsActivatedQuickSlot(_num);
     }
 }

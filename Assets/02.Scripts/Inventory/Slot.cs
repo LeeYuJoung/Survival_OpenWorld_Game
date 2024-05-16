@@ -181,17 +181,17 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         {
             ChangeSlot();
 
-            if (isQuickSlot)
-            {
-                itemEffectDatabase.IsActivatedquickSlot(quickSlotNumber);
-            }
-            else
-            {
-                if (DragSlot.instance.dragSlot.isQuickSlot)
-                {
-                    itemEffectDatabase.IsActivatedquickSlot(DragSlot.instance.dragSlot.quickSlotNumber);
-                }
-            }
+            //if (isQuickSlot)
+            //{
+            //    itemEffectDatabase.IsActivatedquickSlot(quickSlotNumber);
+            //}
+            //else
+            //{
+            //    if (DragSlot.instance.dragSlot.isQuickSlot)
+            //    {
+            //        itemEffectDatabase.IsActivatedquickSlot(DragSlot.instance.dragSlot.quickSlotNumber);
+            //    }
+            //}
         }
     }
     

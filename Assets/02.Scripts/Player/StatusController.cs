@@ -235,7 +235,13 @@ public class StatusController : MonoBehaviour
         }
     }
 
-    // 스태미나 감소
+    // 스테미나 증가
+    public void IncreaseSP(int _count)
+    {
+        sp += _count;
+    }
+
+    // 스테미나 감소
     public void DecreaseSP(float _count)
     {
         isSPUse = true;
@@ -250,7 +256,7 @@ public class StatusController : MonoBehaviour
         }
     }
 
-    // 스태미나 회복
+    // 스테미나 회복
     public void SPRecover()
     {
         if(!isSPUse && currentSP < sp)
