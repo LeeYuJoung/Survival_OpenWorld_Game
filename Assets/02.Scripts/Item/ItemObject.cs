@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ItemObject : MonoBehaviour
 {
-    private SpriteRenderer itemRenderer;
     public Item item;
+    private SpriteRenderer itemRenderer;
 
     private void Start()
     {

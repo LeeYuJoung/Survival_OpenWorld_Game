@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3824887178321907561}
   - component: {fileID: 5213856236315344302}
   - component: {fileID: 5213856236315344301}
+  - component: {fileID: 1642197206851834837}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -123,7 +124,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -139,7 +140,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.01018846, y: 1.0663446}
@@ -155,3 +156,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7178347, y: 0.54285693}
   m_EdgeRadius: 0
+--- !u!114 &1642197206851834837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023391623355061705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421f28c8316304e48ab0f023726ced81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalAnimator: {fileID: 0}
+  animalRigidbody: {fileID: 0}
+  animalCollider: {fileID: 0}
+  animalName: 
+  hp: 0
+  walkSpeed: 0
+  walkTime: 0
+  waitTime: 0
