@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.UIElements;
 using UnityEngine;
 
-public class Sheep : MonoBehaviour
+public class Fox : MonoBehaviour
 {
     [SerializeField]
     private Animator animalAnimator;
@@ -40,17 +40,15 @@ public class Sheep : MonoBehaviour
     void Update()
     {
         Move();
-        Rotation();
+        ElapseTime();
     }
 
     public void Move()
     {
-        
-    }
-
-    public void Rotation()
-    {
-
+        if (isWalking)
+        {
+            animalRigidbody.MovePosition(transform.position + transform.right * walkSpeed * Time.deltaTime);
+        }
     }
 
     public void ElapseTime()
@@ -66,7 +64,28 @@ public class Sheep : MonoBehaviour
 
     public void RandomAction()
     {
+        int _random = Random.Range(0, 5);
 
+        if(_random == 0)
+        {
+
+        }
+        else if(_random == 1)
+        {
+
+        }
+        else if( _random == 2)
+        {
+
+        }
+        else if( _random == 3)
+        {
+
+        }
+        else if(_random == 4)
+        {
+
+        }
     }
 
     // ´ë±â
@@ -75,14 +94,20 @@ public class Sheep : MonoBehaviour
 
     }
 
-    // ¶Ù±â
-    public void Bouncing()
+    // µÎ¸®¹ø
+    public void Peek()
     {
 
     }
 
     // °È±â
     public void Walk()
+    {
+
+    }
+
+    // ¶Ù±â
+    public void Run()
     {
 
     }
