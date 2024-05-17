@@ -37,33 +37,14 @@ public class PickupController : MonoBehaviour
         {
             if (hit.transform.CompareTag("Item"))
             {
-                ItemInfoAppear();
-
                 if (hit.transform != null)
                 {
                     // 인벤토리에 저장
                     Debug.Log(hit.transform.GetComponent<ItemObject>().item.itemName + "획득했습니다.....");
                     inventory.AcquireItem(hit.transform.GetComponent<ItemObject>().item);
                     Destroy(hit.transform.gameObject);
-                    ItemInfoDisappear();
                 }
             }
         }
-        else
-        {
-            ItemInfoDisappear();
-        }
-    }
-
-    // 아이템을 주울 수 있는 상태
-    public void ItemInfoAppear()
-    {
-        isPickupActivated = true;
-    }
-
-    // 아이템을 주울 수 없는 상태
-    public void ItemInfoDisappear()
-    {
-        isPickupActivated = false;
     }
 }
