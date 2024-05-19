@@ -18,7 +18,7 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public Image itemImage;
 
     [SerializeField]
-    private Text text_Count;
+    private Text count_Text;
 
     [SerializeField]
     private bool isQuickSlot = false;
@@ -52,13 +52,13 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
         if(item.itemType != Item.ItemType.Equipment)
         {
-            text_Count.gameObject.SetActive(true);
-            text_Count.text = itemCount.ToString();
+            count_Text.gameObject.SetActive(true);
+            count_Text.text = itemCount.ToString();
         }
         else
         {
-            text_Count.text = "0";
-            text_Count.gameObject.SetActive(false);
+            count_Text.text = "0";
+            count_Text.gameObject.SetActive(false);
         }
 
         SetColor(1);
@@ -68,7 +68,7 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void SetSlotCount(int _count)
     {
         itemCount += _count;
-        text_Count.text = itemCount.ToString();
+        count_Text.text = itemCount.ToString();
 
         if (itemCount <= 0)
             ClearSlot();
@@ -82,8 +82,8 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         itemImage.sprite = null;    
         SetColor(0);
 
-        text_Count.text = "0";
-        text_Count.gameObject.SetActive(false);
+        count_Text.text = "0";
+        count_Text.gameObject.SetActive(false);
     }
 
     // 마우스 커서가 슬롯에 들어갈 때 발동
