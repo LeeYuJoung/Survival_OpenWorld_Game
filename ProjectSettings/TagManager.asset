@@ -10,7 +10,8 @@ TagManager:
   - Ladder
   - Rock
   - Item
-  - Animal
+  - Weak_Animal
+  - Strong_Animal
   layers:
   - Default
   - TransparentFX
