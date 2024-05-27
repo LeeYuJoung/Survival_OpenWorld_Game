@@ -2286,7 +2286,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1036852987}
-  text_Count: {fileID: 1654418103}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &229793757
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1192346513}
-  text_Count: {fileID: 1019366528}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &250100008
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 864767080}
-  text_Count: {fileID: 473475221}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &268237821
@@ -3113,7 +3113,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 71366892}
-  text_Count: {fileID: 1127392686}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &286705138
@@ -3519,7 +3519,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1512825313}
-  text_Count: {fileID: 1908750868}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &318761292
@@ -3617,7 +3617,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1944349304}
-  text_Count: {fileID: 832273740}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &319583699
@@ -3977,7 +3977,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1605361629}
-  text_Count: {fileID: 1489434058}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &356002652
@@ -4643,7 +4643,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 921990885}
-  text_Count: {fileID: 1500764362}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &394540772
@@ -12440,7 +12440,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 200665752}
-  text_Count: {fileID: 1256876128}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &439590006
@@ -14137,7 +14137,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1103206439}
-  text_Count: {fileID: 657128109}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &616614025
@@ -14825,7 +14825,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 532199064}
-  text_Count: {fileID: 1318549048}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &656087654
@@ -15115,7 +15115,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 346876990}
-  text_Count: {fileID: 2097284194}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &683658219
@@ -15399,7 +15399,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1676122987}
-  text_Count: {fileID: 262241981}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &707258207
@@ -15497,7 +15497,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 2125485425}
-  text_Count: {fileID: 2138589697}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &736077465
@@ -15679,7 +15679,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1704907389}
-  text_Count: {fileID: 1259458243}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &752515327
@@ -15777,7 +15777,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 2113643520}
-  text_Count: {fileID: 392226161}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &756863472
@@ -16155,7 +16155,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1129721029}
-  text_Count: {fileID: 781972918}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &812184988
@@ -16349,7 +16349,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1832977577}
-  text_Count: {fileID: 1771168644}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &841148088
@@ -16818,7 +16818,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 647424045}
-  text_Count: {fileID: 1672764758}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &898169739
@@ -17516,7 +17516,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1693382146}
-  text_Count: {fileID: 226670682}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &947722069
@@ -17869,7 +17869,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1904066781}
-  text_Count: {fileID: 32675304}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1009811044
@@ -18299,7 +18299,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 922569026}
-  text_Count: {fileID: 1973993652}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &1050434176
@@ -18733,7 +18733,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 915376727}
-  text_Count: {fileID: 131074014}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1081183954
@@ -19373,7 +19373,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1991852765}
-  text_Count: {fileID: 1820371190}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1135128920
@@ -19471,7 +19471,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 279032268}
-  text_Count: {fileID: 1408724709}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1140339741
@@ -19742,7 +19742,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1658573321}
-  text_Count: {fileID: 180661019}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1193679723
@@ -19876,7 +19876,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 559093652}
-  text_Count: {fileID: 2021018681}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1213372325
@@ -20334,7 +20334,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1954709829}
-  text_Count: {fileID: 593243171}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1257886248
@@ -20585,7 +20585,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1824162872}
-  text_Count: {fileID: 1430292425}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1277536926
@@ -22017,7 +22017,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1782872498}
-  text_Count: {fileID: 538547836}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1402084592
@@ -22287,7 +22287,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 639238723}
-  text_Count: {fileID: 598891418}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1414110413
@@ -22557,7 +22557,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1906591179}
-  text_Count: {fileID: 1754619913}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1428267060
@@ -23195,7 +23195,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 14915429}
-  text_Count: {fileID: 308817148}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1499217493
@@ -23605,7 +23605,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1352739606}
-  text_Count: {fileID: 412500853}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &1541570511
@@ -24797,7 +24797,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 559931461}
-  text_Count: {fileID: 629692469}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &1664887114
@@ -25144,7 +25144,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1727657753}
-  text_Count: {fileID: 68330717}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &1678609569
@@ -25397,7 +25397,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 395960292}
-  text_Count: {fileID: 1717475578}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1708906985
@@ -26002,7 +26002,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 259343803}
-  text_Count: {fileID: 646565835}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1748401763
@@ -26227,7 +26227,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 861470037}
-  text_Count: {fileID: 1183522156}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1770975659
@@ -26979,7 +26979,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1301632555}
-  text_Count: {fileID: 1573819246}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1834088505
@@ -27077,7 +27077,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1944639874}
-  text_Count: {fileID: 452994175}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1859787225
@@ -27579,7 +27579,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 54404085}
-  text_Count: {fileID: 1579901123}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1909736390
@@ -27758,7 +27758,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1901739192}
-  text_Count: {fileID: 664001045}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1918766562
@@ -27951,7 +27951,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1873513350}
-  text_Count: {fileID: 1386119384}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!1 &1936574269
@@ -28087,7 +28087,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 595968065}
-  text_Count: {fileID: 547704845}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &1938982045
@@ -28641,7 +28641,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 159836272}
-  text_Count: {fileID: 881619131}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &1977732895
@@ -29597,7 +29597,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 1789497796}
-  text_Count: {fileID: 1821483783}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &2046711501
@@ -29863,7 +29863,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 138875157}
-  text_Count: {fileID: 381232891}
+  count_Text: {fileID: 0}
   isQuickSlot: 0
   quickSlotNumber: 0
 --- !u!114 &2080495408
@@ -30094,7 +30094,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 274719266}
-  text_Count: {fileID: 1253203128}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &2106062022
@@ -30786,7 +30786,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemCount: 0
   itemImage: {fileID: 46190112}
-  text_Count: {fileID: 2034089957}
+  count_Text: {fileID: 0}
   isQuickSlot: 1
   quickSlotNumber: 1
 --- !u!114 &2138619163

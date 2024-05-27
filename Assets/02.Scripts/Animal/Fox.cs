@@ -5,19 +5,13 @@ using UnityEngine;
 
 public class Fox : MonoBehaviour
 {
-    [SerializeField]
-    private Animator animalAnimator;
-    [SerializeField]
-    private Rigidbody2D animalRigidbody;
-    [SerializeField]
-    private Collider2D animalCollider;
+    [SerializeField] private Animator animalAnimator;
+    [SerializeField] private Rigidbody2D animalRigidbody;
+    [SerializeField] private Collider2D animalCollider;
 
-    [SerializeField]
-    private string animalName;
-    [SerializeField]
-    private int hp;
-    [SerializeField]
-    private float walkSpeed;
+    [SerializeField] private string animalName;
+    [SerializeField] private int hp;
+    [SerializeField] private float walkSpeed;
 
     private Vector2 direction;
 
@@ -25,10 +19,8 @@ public class Fox : MonoBehaviour
     private bool isAction;
     private bool isWalking;
 
-    [SerializeField]
-    private float walkTime;
-    [SerializeField]
-    private float waitTime;
+    [SerializeField] private float walkTime;
+    [SerializeField] private float waitTime;
     private float currentTime;
 
     void Start()
