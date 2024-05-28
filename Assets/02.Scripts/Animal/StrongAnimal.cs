@@ -38,9 +38,18 @@ public class StrongAnimal : Animal
         }
     }
 
+    protected IEnumerator ChaseTargetCoroutine()
+    {
+        yield return null;
+    }
+
     protected IEnumerator AttackCoroutine()
     {
-        
+        isAttacking = true;
+
+
+        currentChaseTIme = chaseTime;
+
         yield return null;
     }
 }
