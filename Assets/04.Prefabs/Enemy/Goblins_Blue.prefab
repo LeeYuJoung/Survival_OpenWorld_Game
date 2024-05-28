@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8298613645919266307}
   - component: {fileID: 8298613645919266311}
   - component: {fileID: 8298613645919266310}
+  - component: {fileID: 7460603788013970787}
   m_Layer: 0
   m_Name: Goblins_Blue
   m_TagString: Enemy
@@ -155,3 +156,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0324539, y: 0.6535802}
   m_EdgeRadius: 0
+--- !u!114 &7460603788013970787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8298613645919266306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8992d44ba1a80954aa698200b8cf59fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

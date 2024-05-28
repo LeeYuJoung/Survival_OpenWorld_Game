@@ -24,6 +24,8 @@ public class Animal : MonoBehaviour
     protected bool isAction;
     protected bool isWalking;
     protected bool isRunning;
+    protected bool isChasing;
+    protected bool isAttacking;
     protected bool isDead;
 
     [SerializeField] protected float walkTime;
@@ -47,7 +49,7 @@ public class Animal : MonoBehaviour
         isDead = false;
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
         if (!isDead)
         {
@@ -79,7 +81,8 @@ public class Animal : MonoBehaviour
         if (isAction)
         {
             currentTime -= Time.deltaTime;
-            if (currentTime <= 0)
+
+            if (currentTime <= 0 && !isChasing && !isAttacking)
             {
                 Reset();
             }
@@ -87,7 +90,7 @@ public class Animal : MonoBehaviour
     }
 
     // 다음 행동 준비
-    public virtual void Reset()
+    protected virtual void Reset()
     {
         isAction = true;
         isWalking = false;

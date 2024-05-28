@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Fox : WeakAnimal
 {
-    public override void Reset()
+    protected override void Reset()
     {
         base.Reset();
         RandomAction();

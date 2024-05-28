@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 // 플레이어의 공격 및 상태 구현
@@ -78,17 +79,33 @@ public class PlayerController : MonoBehaviour
 
         if(hit)
         {
-            if (hit.collider.CompareTag("Tree"))
+            switch (hit.collider.tag)
             {
-                Debug.Log("나무 제거 중....");
-                currentWorkDelayTime += Time.deltaTime;
-                StartCoroutine(hit.collider.GetComponent<EnviromentController>().EnviromentShake());
+                case "Tree":
+                    Debug.Log("나무 제거 중....");
+                    currentWorkDelayTime += Time.deltaTime;
+                    StartCoroutine(hit.collider.GetComponent<EnviromentController>().EnviromentShake());
 
-                if (currentWorkDelayTime >= workDelayTime)
-                {
-                    currentWorkDelayTime = 0;
-                    hit.collider.GetComponent<EnviromentController>().Mining(20.0f);
-                }
+                    if (currentWorkDelayTime >= workDelayTime)
+                    {
+                        currentWorkDelayTime = 0;
+                        hit.collider.GetComponent<EnviromentController>().Mining(20.0f);
+                    }
+
+                    break;
+                case "WeakAnimal":
+                    Debug.Log("사냥 중....");
+                    hit.collider.GetComponent<WeakAnimal>().Damage(0, transform.position);
+
+                    break;
+                case "StrongAnimal":
+                    Debug.Log("사냥 중....");
+                    hit.collider.GetComponent<StrongAnimal>().Damage(0, transform.position);
+
+                    break;
+                default:
+                    break;
+
             }
         }
     }
