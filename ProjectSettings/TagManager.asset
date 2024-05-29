@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Ground
   - Tree
-  - Enemy
   - Ladder
   - Rock
   - Item
@@ -22,7 +21,7 @@ TagManager:
   - Player
   - Grid
   - Item
-  - 
+  - Animal
   - 
   - 
   - 

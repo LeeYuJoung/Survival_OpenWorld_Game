@@ -17,13 +17,17 @@ public class Goblin : StrongAnimal
 
     private void RandomAction()
     {
-        int _random = Random.Range(0, 2);
+        int _random = Random.Range(0, 3);
 
         if(_random == 0 )
         {
             Wait();
         }
         else if(_random == 1 )
+        {
+            Wait();
+        }
+        else if( _random == 2 )
         {
             Walk();
         }
