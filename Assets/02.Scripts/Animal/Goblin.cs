@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Goblin : StrongAnimal
 {
-    protected override  void Update()
+    protected override void Update()
     {
         base.Update();
     }
 
-   protected override void Reset()
+    protected override void Reset()
     {
         base.Reset();
         RandomAction();
@@ -17,7 +17,7 @@ public class Goblin : StrongAnimal
 
     private void RandomAction()
     {
-        int _random = Random.Range(0, 3);
+        int _random = Random.Range(0, 2);
 
         if(_random == 0 )
         {
@@ -25,17 +25,12 @@ public class Goblin : StrongAnimal
         }
         else if(_random == 1 )
         {
-            Wait();
-        }
-        else if( _random == 2 )
-        {
             Walk();
         }
     }
 
     private void Wait()
     {
-        currentChaseTIme = waitTime;
-        Debug.Log("´ë±â Áß....");
+        currentTime = waitTime;
     }
 }

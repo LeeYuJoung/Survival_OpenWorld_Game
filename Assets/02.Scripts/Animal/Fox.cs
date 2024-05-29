@@ -37,7 +37,6 @@ public class Fox : WeakAnimal
     public void Wait()
     {
         currentTime = waitTime;
-        Debug.Log("대기 중....");
     }
 
     // 두리번
@@ -45,7 +44,6 @@ public class Fox : WeakAnimal
     {
         currentTime = waitTime;
         animalAnimator.SetTrigger("Peek");
-        Debug.Log("두리번....");
     }
 
     // 잠자기
@@ -53,6 +51,5 @@ public class Fox : WeakAnimal
     {
         currentTime = waitTime;
         animalAnimator.SetBool("Sleep", true);
-        Debug.Log("자는 중....");
     }
 }

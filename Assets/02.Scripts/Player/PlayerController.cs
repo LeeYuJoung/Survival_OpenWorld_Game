@@ -93,12 +93,12 @@ public class PlayerController : MonoBehaviour
                     }
 
                     break;
-                case "WeakAnimal":
+                case "Weak_Animal":
                     Debug.Log("사냥 중....");
                     hit.collider.GetComponent<WeakAnimal>().Damage(0, transform.position);
 
                     break;
-                case "StrongAnimal":
+                case "Strong_Animal":
                     Debug.Log("사냥 중....");
                     hit.collider.GetComponent<StrongAnimal>().Damage(0, transform.position);
 

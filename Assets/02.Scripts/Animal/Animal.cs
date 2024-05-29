@@ -109,7 +109,6 @@ public class Animal : MonoBehaviour
         isWalking = true;
         applySpeed = walkSpeed;
         animalAnimator.SetBool("Walk", isWalking);
-        Debug.Log("°È´Â Áß....");
     }
 
     public virtual void Damage(int _damage, Vector2 _targetPos)
