@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 강한 동물들이 가지는 공통적인 부분 -> 데미지 입으면 공격 예) 
+// 강한 동물들이 가지는 공통적인 부분 -> 데미지 입으면 공격 예) Goblin
 public class StrongAnimal : Animal
 {
     [SerializeField] protected int attackDamage;     // 공격 데미지
@@ -40,6 +40,8 @@ public class StrongAnimal : Animal
 
     protected IEnumerator ChaseTargetCoroutine()
     {
+        currentChaseTIme = 0;
+
         yield return null;
     }
 

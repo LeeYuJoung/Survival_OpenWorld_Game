@@ -131,6 +131,8 @@ public class Animal : MonoBehaviour
 
     protected void Dead()
     {
+        PlaySE(dead_Sounds);
+
         isWalking = false;
         isRunning = false;
         isDead = true;
