@@ -20,4 +20,5 @@ public class Item : ScriptableObject
     public Sprite itemImage;
     public Sprite interactionImage;
     public GameObject itemPrefab;
+    public int damage;
 }

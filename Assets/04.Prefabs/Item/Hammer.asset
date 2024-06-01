@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a3cef65b3bbe7f4eae866791cc864d4, type: 3}
-  m_Name: Ax
+  m_Name: Hammer
   m_EditorClassIdentifier: 
-  itemName: Ax
+  itemName: Hammer
   itemDesc: 
   itemType: 0
-  itemImage: {fileID: -1981491177, guid: 1e7aaf2accfb79e43b6fb31da9fc3128, type: 3}
+  itemImage: {fileID: 1578091288, guid: 1e7aaf2accfb79e43b6fb31da9fc3128, type: 3}
   interactionImage: {fileID: 0}
-  itemPrefab: {fileID: 8436730376140908546, guid: bfffa15ed8dc30748a05cf209436ac8c, type: 3}
+  itemPrefab: {fileID: 2283543156107207819, guid: b31f01146e4edbb40a538ccede4386a9, type: 3}
   damage: 10

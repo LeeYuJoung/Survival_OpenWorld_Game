@@ -94,10 +94,11 @@ public class Animal : MonoBehaviour
     {
         isAction = true;
         isWalking = false;
-        animalAnimator.SetBool("Walk", isWalking);
         isRunning = false;
-        animalAnimator.SetBool("Run", isRunning);
         applySpeed = walkSpeed;
+
+        animalAnimator.SetBool("Walk", isWalking);
+        animalAnimator.SetBool("Run", isRunning);
 
         direction = Random.Range(0, 2);
     }

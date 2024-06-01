@@ -18,6 +18,7 @@ public class WeakAnimal : Animal
 
     public override void Damage(int _damage, Vector2 _targetPos)
     {
+        Debug.Log(hp);
         base.Damage(_damage, _targetPos);
 
         if(!isDead )
