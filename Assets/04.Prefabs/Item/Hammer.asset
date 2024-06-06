@@ -16,6 +16,6 @@ MonoBehaviour:
   itemDesc: 
   itemType: 0
   itemImage: {fileID: 1578091288, guid: 1e7aaf2accfb79e43b6fb31da9fc3128, type: 3}
-  interactionImage: {fileID: 0}
+  interactionImage: {fileID: 1578091288, guid: 1e7aaf2accfb79e43b6fb31da9fc3128, type: 3}
   itemPrefab: {fileID: 2283543156107207819, guid: b31f01146e4edbb40a538ccede4386a9, type: 3}
   damage: 10

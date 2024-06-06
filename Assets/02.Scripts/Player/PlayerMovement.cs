@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRigidbody;
     private Animator playerAnimator;
     private StatusController statusController;
-    private PlayerController playerController;
+    private AttackController playerController;
     private Collider2D polygonCollider;
 
     // 스피드 변수
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         playerRigidbody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         statusController = GetComponent<StatusController>();
-        playerController = GetComponent<PlayerController>();
+        playerController = GetComponent<AttackController>();
         polygonCollider = GameObject.Find("Grid").GetComponent<Collider2D>();
 
         currentSpeed = moveSpeed;

@@ -76,6 +76,7 @@ public class QuickSlotController : MonoBehaviour
             if (quickSlots[_num].item.itemType == Item.ItemType.Equipment)
             {
                 Debug.Log("무기 사용");
+
             }
             else if (quickSlots[_num].item.itemType == Item.ItemType.Used)
             {
